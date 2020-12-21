@@ -10,11 +10,11 @@ function App() {
       name: "full-stack",
       description: "Full Stack Applications",
     },
-    { name: "components", description: "Application Components" },
-    { name: "gists", description: "Concepts & Code Snippets" },
+    { name: "component", description: "Application Components" },
+    { name: "gist", description: "Concepts & Code Snippets" },
     {
-      name: "resume",
-      description: "Matt Brassey",
+      name: "blockchain",
+      description: "Blockchain Enabled Applications",
     },
   ]);
 
