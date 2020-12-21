@@ -1,7 +1,7 @@
 import React from 'react';
 import { capitalizeFirstLetter } from '../../utils/helpers';
 
-function Gallery(props) {
+function Project(props) {
   const { currentCategory } = props;
   return (
     <section>
@@ -9,4 +9,4 @@ function Gallery(props) {
     </section>
   );
 }
-export default Gallery;
+export default Project;
