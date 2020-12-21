@@ -1,15 +1,29 @@
-import React from "react";
-import ProjectList from "../ProjectList";
+
+
+import React from 'react';
 import { capitalizeFirstLetter } from "../../utils/helpers";
 
-function Project(props) {
-  const { currentCategory } = props;
+function Project({ project }) {
+
+  const { name, repo, link, description } = project;
+
   return (
-    <section>
-      <h1 data-testid="h1tag">{capitalizeFirstLetter(currentCategory.name)}</h1>
-      <p>{currentCategory.description}</p>
-      <ProjectList category={currentCategory.name} />
-    </section>
+    <div className="project" key={name}>
+      { <img
+        src={require(`../../assets/small/blockchain/0.jpg`)}
+        alt={capitalizeFirstLetter(name)}
+        className="project-bg"
+      />}
+      <div className="project-text">
+        <h3>
+          <a href={link}>{capitalizeFirstLetter(name)}</a>{' '}
+          <a href={repo}>
+            <i className="fab fa-github"></i>
+          </a>
+        </h3>
+        <p>{description}</p>
+      </div>
+    </div>
   );
 }
 
