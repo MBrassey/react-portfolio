@@ -8,7 +8,7 @@ const ProjectList = ({ category }) => {
   const [projects] = useState([
     {
       name: 'financial-tracker',
-      category: 'full-stack',
+      category: 'fullstack',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
     },
     {
@@ -35,12 +35,20 @@ const ProjectList = ({ category }) => {
     setIsModalOpen(!isModalOpen);
   };
 
+  const handleOnMouseOver = () => {
+    console.log("over");
+  }
+
+  const handleOnMouseOut = () => {
+    console.log("out");
+  }
+
   return (
     <div>
       {isModalOpen && <Modal onClose={toggleModal} currentProject={currentProject} />}
       <div className="flex-row">
         {currentProjects.map((image, i) => (
-          <img
+          <img onMouseOver={handleOnMouseOver} onMouseOut={handleOnMouseOut}
             src={require(`../../assets/small/${category}/${i}.jpg`)}
             alt={image.name}
             className="img-thumbnail mx-1"

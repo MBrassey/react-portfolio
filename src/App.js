@@ -7,7 +7,7 @@ import ContactForm from "./components/Contact";
 function App() {
   const [categories] = useState([
     {
-      name: "full-stack",
+      name: "fullstack",
       description: "Full Stack Applications",
     },
     { name: "component", description: "Application Components" },
