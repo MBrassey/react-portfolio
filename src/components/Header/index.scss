@@ -1,0 +1,21 @@
+.scramble {
+    display: flex;
+    font-size: 30px;
+    padding-top: 20px;
+    margin-bottom: 0px;
+    padding-left: 30px;
+    font-family: 'Trebuchet MS';
+    color: #2D93CA;
+    z-index: 999;
+  
+    &__blinker {
+      animation: blinker 2s cubic-bezier(20, 0, 1, 1) infinite alternate;
+      
+      @keyframes blinker {
+        to {
+          opacity: 10;
+        }
+      }
+    }
+  }
+  

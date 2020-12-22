@@ -10,10 +10,10 @@ function Nav(props) {
 
   return (
     <nav>
-      <ul className="flex-row">
+      <ul className="nav-item flex-row">
         {pages.map((Page) => (
           <li
-            className={`mx-5 ${currentPage.name === Page.name && "navActive"}`}
+            className={`mx-2 ${currentPage.name === Page.name && "navActive"}`}
             key={Page.name}
           >
             <span onClick={() => setCurrentPage(Page)}>

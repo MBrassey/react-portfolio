@@ -5,7 +5,6 @@ import Page from "./components/Page";
 import Nav from "./components/Nav";
 
 function App() {
-
   // Nav items
   const [pages] = useState([
     {
@@ -22,13 +21,13 @@ function App() {
 
   return (
     <div>
-      <Header>
-        <Nav
-          pages={pages}
-          setCurrentPage={setCurrentPage}
-          currentPage={currentPage}
-        ></Nav>
-      </Header>
+        <Header>
+          <Nav
+            pages={pages}
+            setCurrentPage={setCurrentPage}
+            currentPage={currentPage}
+          ></Nav>
+        </Header>
       <main>
         <Page currentPage={currentPage}></Page>
       </main>
