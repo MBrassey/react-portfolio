@@ -5,7 +5,7 @@ function About() {
   return (
     <section className="my-5">
       <div className="my-2">
-        <div className="profile-img my-5">
+        <div className="my-5">
           <img
             src={ProfilePicture}
             alt="Matt's Profile Picture"
@@ -20,7 +20,7 @@ function About() {
             }}
           />
         </div>
-        <p>Welcome, I'm Matt Brassey - Full stack blockchain developer with SysOps & DevOps background. Known among staff for strong wit and attention to detail no matter the complexity of the project or severity of it’s operations. Proven experience applying continuous integration within small group and large, corporate team settings. Strong ability to modularize large, complex project objectives into concise and manageable parts. Recently completed a 24-week bootcamp earning a certificate in full stack development from the University of Arizona. Intense interest in distributed systems, decentralized finance and blockchain technology. Keen technologist with an insatiable desire to learn, build, improve and collaborate on world changing platforms and applications.</p>
+        <div class="about-text">Welcome, I'm Matt Brassey - Full stack blockchain developer with SysOps & DevOps background. Known among staff for strong wit and attention to detail no matter the complexity of the project or severity of it’s operations. Proven experience applying continuous integration within small group and large, corporate team settings. Strong ability to modularize large, complex project objectives into concise and manageable parts. Recently completed a 24-week bootcamp earning a certificate in full stack development from the University of Arizona. Intense interest in distributed systems, decentralized finance and blockchain technology. Keen technologist with an insatiable desire to learn, build, improve and collaborate on world changing platforms and applications.</div>
       </div>
     </section>
   );

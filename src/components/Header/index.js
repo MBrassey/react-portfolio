@@ -16,7 +16,7 @@ function Header(props) {
           texts={scrambleTexts}
           letterSpeed={5}
           nextLetterSpeed={100}
-          pauseTime={2000}
+          pauseTime={2200}
         />
       </div>
       {props.children}

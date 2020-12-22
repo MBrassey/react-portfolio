@@ -4,9 +4,10 @@
     padding-top: 20px;
     margin-bottom: 0px;
     padding-left: 30px;
-    font-family: 'Trebuchet MS';
-    color: #2D93CA;
+    font-family: "Aldrich", sans-serif;
+    color: #4683C8;
     z-index: 999;
+   text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
   
     &__blinker {
       animation: blinker 2s cubic-bezier(20, 0, 1, 1) infinite alternate;

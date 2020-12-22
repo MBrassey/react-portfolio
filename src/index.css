@@ -35,7 +35,6 @@ body {
   letter-spacing: 0.1em;
   background: var(--alpha);
   color: var(--dark);
-  font-family: "Open Sans", sans-serif;
 }
 
 h1,
@@ -44,7 +43,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Orbitron", sans-serif;
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;
@@ -104,7 +103,7 @@ header a {
 }
 
 header {
-  height: 160px;
+  height: 136px;
   position: relative;
   overflow: hidden;
   z-index: 2;
@@ -167,9 +166,18 @@ li {
   list-style: none;
 }
 
+.about-text {
+  background-color: var(--darker);
+  font-family: "Aldrich", sans-serif;
+  border-radius: 2%;
+  box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.7);
+  opacity: 100%;
+  padding: 22px;
+}
+
 nav {
   position: relative;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Orbitron", sans-serif;
   font-size: 1.5rem;
   margin-top: 0%;
 }
@@ -360,6 +368,7 @@ input:focus {
 }
 
 .project-text {
+  font-family: "Aldrich", sans-serif;
   color: var(--secondary);
   position: absolute;
   top: 0px;
@@ -392,6 +401,10 @@ input:focus {
 
 .project-text a:hover {
   color: var(--tertiary);
+}
+
+.scramble {
+  width: 455px;
 }
 
 @media (max-width: 767px) {
