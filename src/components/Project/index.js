@@ -1,22 +1,21 @@
-
-
-import React from 'react';
-import { capitalizeFirstLetter } from "../../utils/helpers";
+import { formatAndCapitalize } from "../../utils/helpers";
+import React from "react";
 
 function Project({ project }) {
-
   const { name, repo, link, description } = project;
 
   return (
     <div className="project" key={name}>
-      { <img
-        src={require(`../../assets/small/blockchain/0.jpg`)}
-        alt={capitalizeFirstLetter(name)}
-        className="project-bg"
-      />}
+      {
+        <img
+          src={require(`../../assets/projects/${name}.png`)}
+          alt={formatAndCapitalize(name)}
+          className="project-bg"
+        />
+      }
       <div className="project-text">
         <h3>
-          <a href={link}>{capitalizeFirstLetter(name)}</a>{' '}
+          <a href={link}>{formatAndCapitalize(name)}</a>{" "}
           <a href={repo}>
             <i className="fab fa-github"></i>
           </a>

@@ -1,46 +1,38 @@
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 import React, { useState } from "react";
+import Page from "./components/Page";
 import Nav from "./components/Nav";
-import About from "./components/About";
-import Project from "./components/Project";
-import ContactForm from "./components/Contact";
 
 function App() {
-  const [categories] = useState([
+
+  // Nav items
+  const [pages] = useState([
     {
-      name: "fullstack",
-      description: "Full Stack Applications",
+      name: "about me",
     },
-    { name: "component", description: "Application Components" },
-    { name: "gist", description: "Concepts & Code Snippets" },
+    { name: "portfolio" },
+    { name: "contact" },
     {
-      name: "blockchain",
-      description: "Blockchain Enabled Applications",
+      name: "resume",
     },
   ]);
 
-  const [currentCategory, setCurrentCategory] = useState(categories[0]);
-
-  const [contactSelected, setContactSelected] = useState(false);
+  const [currentPage, setCurrentPage] = useState(pages[0]);
 
   return (
     <div>
-      <Nav
-        categories={categories}
-        setCurrentCategory={setCurrentCategory}
-        currentCategory={currentCategory}
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
-      ></Nav>
+      <Header>
+        <Nav
+          pages={pages}
+          setCurrentPage={setCurrentPage}
+          currentPage={currentPage}
+        ></Nav>
+      </Header>
       <main>
-        {!contactSelected ? (
-          <>
-            <Project currentCategory={currentCategory}></Project>
-            <About></About>
-          </>
-        ) : (
-          <ContactForm></ContactForm>
-        )}
+        <Page currentPage={currentPage}></Page>
       </main>
+      <Footer />
     </div>
   );
 }

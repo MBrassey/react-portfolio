@@ -1,19 +1,29 @@
-import React from 'react'
-import coverImage from "../../assets/cover.png";
+import ProfilePicture from "../../assets/cover/profile.jpg";
+import React from "react";
 
 function About() {
-
   return (
-    <section className="" >
-      <h1 id="about">Who am I?</h1>
-      <img src={coverImage} className="" style={{ width: "100%" }} alt="cover" />
+    <section className="my-5">
       <div className="my-2">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum turpis sed ex condimentum molestie. Mauris condimentum lectus ut ornare dignissim. Mauris faucibus urna mi, ac feugiat metus aliquam maximus. Proin aliquam justo nec diam vulputate vestibulum. Aenean sollicitudin nulla at nisi ornare, nec suscipit massa eleifend. Morbi tristique justo vel turpis sollicitudin, et tristique velit convallis. In hac habitasse platea dictumst. Phasellus mattis nunc sed orci consequat laoreet. Praesent id nisl nibh. Curabitur imperdiet ultricies mollis. In hac habitasse platea dictumst.
-      </p>
+        <div className="profile-img my-5">
+          <img
+            src={ProfilePicture}
+            alt="Matt's Profile Picture"
+            style={{
+              borderRadius: "3%",
+              overflow: "visible",
+              boxShadow: "0 12px 24px 0 rgba(0, 0, 0, 0.7)",
+              height: "240px",
+              width: "240px",
+              marginTop: "9px",
+              border: "solid 3px black",
+            }}
+          />
+        </div>
+        <p>test</p>
       </div>
     </section>
-  )
+  );
 }
 
-export default About
+export default About;

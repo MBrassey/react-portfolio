@@ -1,70 +1,28 @@
-import React, { useEffect } from "react";
 import { capitalizeFirstLetter } from "../../utils/helpers";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTerminal } from "@fortawesome/free-solid-svg-icons";
+import React, { useEffect } from "react";
 
 function Nav(props) {
-  const {
-    categories = [],
-    setCurrentCategory,
-    contactSelected,
-    currentCategory,
-    setContactSelected,
-  } = props;
+  const { pages = [], setCurrentPage, currentPage } = props;
 
   useEffect(() => {
-    document.title = capitalizeFirstLetter(currentCategory.name);
-  }, [currentCategory]);
+    document.title = capitalizeFirstLetter(currentPage.name);
+  }, [currentPage]);
 
   return (
-    <header className="flex-row">
-      <h2>
-        <li className="mx-0">
-          <FontAwesomeIcon icon={faTerminal} />
-          <a data-testid="link" href="/">
-            <span role="img" aria-label="myname">
-              {" "}
-              Matt Brassey
+    <nav>
+      <ul className="flex-row">
+        {pages.map((Page) => (
+          <li
+            className={`mx-5 ${currentPage.name === Page.name && "navActive"}`}
+            key={Page.name}
+          >
+            <span onClick={() => setCurrentPage(Page)}>
+              {capitalizeFirstLetter(Page.name)}
             </span>
-          </a>
-        </li>
-      </h2>
-      <nav>
-        <ul className="flex-row">
-          <li className="mx-3">
-            <a
-              data-testid="about"
-              href="#about"
-              onClick={() => setContactSelected(false)}
-            >
-              About me
-            </a>
           </li>
-          <li className={`mx-2 ${contactSelected && "navActive"}`}>
-            <span onClick={() => setContactSelected(true)}>Contact</span>
-          </li>
-          {categories.map((category) => (
-            <li
-              className={`mx-1 ${
-                currentCategory.name === category.name &&
-                !contactSelected &&
-                "navActive"
-              }`}
-              key={category.name}
-            >
-              <span
-                onClick={() => {
-                  setCurrentCategory(category);
-                  setContactSelected(false);
-                }}
-              >
-                {capitalizeFirstLetter(category.name)}
-              </span>
-            </li>
-          ))}
-        </ul>
-      </nav>
-    </header>
+        ))}
+      </ul>
+    </nav>
   );
 }
 
