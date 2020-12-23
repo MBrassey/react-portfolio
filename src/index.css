@@ -113,7 +113,7 @@ header a {
 }
 
 header {
-  height: 136px;
+  height: 90px;
   position: relative;
   overflow: hidden;
   z-index: 2;
@@ -497,6 +497,12 @@ input:focus {
 }
 
 @media (max-width: 1162px) {
+  header {
+    height: 67px;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+  }
   nav {
     position: relative;
     font-family: "Orbitron", sans-serif;
@@ -536,7 +542,13 @@ input:focus {
   }
 }
 
-@media (max-width: 968px) {
+@media (max-width: 972px) {
+  header {
+    height: 140px;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+  }
   nav {
     position: relative;
     font-family: "Orbitron", sans-serif;
@@ -576,7 +588,7 @@ input:focus {
   }
 }
 
-@media (max-width: 710px) {
+@media (max-width: 726px) {
   nav {
     font-family: "Orbitron", sans-serif;
     font-size: 2.5rem;
