@@ -4,13 +4,13 @@ main {
   padding: 50px 30px;
 }
 :root {
-  --primary: #111D2F;
-  --secondary: #58A6FF;
+  --primary: #111d2f;
+  --secondary: #58a6ff;
   --tertiary: #2d93ca;
-  --light: #C9D1D9;
-  --dark: #5C646C;
-  --darker: #090D12;
-  --alpha: #0D1117;
+  --light: #c9d1d9;
+  --dark: #5c646c;
+  --darker: #090d12;
+  --alpha: #0d1117;
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
   --spacing-five: calc(2.5rem);
@@ -22,7 +22,8 @@ main {
 
 html,
 body {
-  cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/820793/cursor-auto.png), auto;
+  cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/820793/cursor-auto.png),
+    auto;
   min-height: 100%;
 }
 
@@ -179,12 +180,6 @@ nav {
   font-family: "Orbitron", sans-serif;
   font-size: 1.5rem;
   margin-top: 0%;
-}
-
-nav li {
-  cursor: pointer;
-  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-  margin: 0 50px;
 }
 
 nav a:hover {
@@ -406,6 +401,106 @@ input:focus {
   width: 455px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1162px) {
+  nav {
+    position: relative;
+    font-family: "Orbitron", sans-serif;
+    font-size: 1.2rem;
+    margin-top: 0%;
+  }
 
+  nav a:hover {
+    border-bottom: 18px solid var(--secondary);
+  }
+
+  nav li {
+    cursor: pointer;
+    text-shadow: 2px 2px 10px var(--alpha);
+    margin: 0 50px;
+  }
+
+  nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+
+  .navActive {
+    color: var(--secondary);
+    cursor: default;
+    transition: all 0.5s ease-in-out;
+    text-shadow: 3px 3px 7px var(--alpha);
+  }
+
+  .scramble {
+    width: 355px;
+  }
+}
+
+@media (max-width: 968px) {
+  nav {
+    position: relative;
+    font-family: "Orbitron", sans-serif;
+    font-size: 1.5rem;
+    margin-top: 0%;
+  }
+
+  nav li {
+    cursor: pointer;
+    text-shadow: 2px 2px 10px var(--alpha);
+    margin: 0 50px;
+  }
+
+  nav a:hover {
+    border-bottom: 18px solid var(--secondary);
+  }
+
+  nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+
+  .navActive {
+    color: var(--secondary);
+    cursor: default;
+    transition: all 0.5s ease-in-out;
+    text-shadow: 3px 3px 7px var(--alpha);
+  }
+
+  .scramble {
+    width: 455px;
+  }
+}
+
+@media (max-width: 710px) {
+  nav {
+    font-family: "Orbitron", sans-serif;
+    font-size: 2.5rem;
+  }
+  nav ul {
+    display: block;
+    justify-content:center;
+    align-items: center;
+    list-style: none;
+  }
+  header {
+    height: 220px;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+  }
+}
+
+@media (max-width: 567px) {
+  header {
+    height: 340px;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+  }
 }

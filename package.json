@@ -2,7 +2,7 @@
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": false,
-  "homepage": "http://mbrassey.github.io/react-portfolio",
+  "homepage": "https://brassey.io/",
   "description": "Developer portfolio application that uses React state, props, Hooks, and reusable UI components",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
