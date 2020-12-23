@@ -25,13 +25,13 @@ Developer portfolio application that uses React state, props, Hooks, and reusabl
     npm run start
     browse: localhost:3001/
 
-<h6><p align="right">:cyclone: Click the image(s) below to view the live <a id="Screenshots" href="https://mbrassey.github.io/react-portfolio/">webapplication</a></p></h6>
+<h6><p align="right">:cyclone: Click the image(s) below to view the live <a id="Screenshots" href="https://brassey.io/">webapplication</a></p></h6>
 
 > Application Demonstration
-> [<img src="src/assets/cover/Demo.gif">](https://mbrassey.github.io/react-portfolio/)
+> [<img src="src/assets/cover/Demo.gif">](https://brassey.io/)
 
 > Tests Passing (coming soon)
-> [<img src="images/Routes.gif">](https://mbrassey.github.io/react-portfolio/)
+> [<img src="images/Routes.gif">](https://brassey.io/)
 
 #### Questions
 
