@@ -38,6 +38,7 @@ body {
   color: var(--dark);
 }
 i {
+  box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.7);
   cursor: url(https://raw.githubusercontent.com/MBrassey/MediaStore/main/Images/cursor-hand.png),
     auto;
 }
@@ -63,6 +64,7 @@ h1 {
 h2 {
   font-size: 2rem;
   color: var(--secondary);
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 h3 {
@@ -142,6 +144,7 @@ button {
     auto;
   margin: 0 1px;
   background-color: var(--dark);
+  box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.7);
   padding: 10px 15px;
   opacity: 0.7;
 }
@@ -269,6 +272,7 @@ input {
   padding: 0.25rem;
   width: 600px;
   border: 1px solid var(--dark);
+  box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.7);
   outline: none;
   border-radius: 3px;
   transition: box-shadow 0.2s;
