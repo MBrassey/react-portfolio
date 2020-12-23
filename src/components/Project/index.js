@@ -1,3 +1,4 @@
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import FadeIn from "react-fade-in";
 import React from "react";
 
@@ -8,7 +9,7 @@ function Project({ project }) {
     <FadeIn>
       <div className="project" key={name}>
         {
-          <img
+          <LazyLoadImage
             src={require(`../../assets/projects/${name}.png`)}
             alt={name}
             className="project-bg"

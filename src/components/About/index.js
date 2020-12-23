@@ -1,3 +1,4 @@
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import ProfilePicture from "../../assets/cover/profile.jpg";
 import FadeIn from "react-fade-in";
 import React from "react";
@@ -8,7 +9,7 @@ function About() {
       <section className="my-5">
         <div className="my-2">
           <div className="my-5">
-            <img
+          <LazyLoadImage
               src={ProfilePicture}
               alt="Matt's Profile Picture"
               style={{
