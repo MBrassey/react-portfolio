@@ -101,6 +101,7 @@ a:hover {
 }
 
 header {
+  box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.7);
   background: var(--darker);
   color: var(--light);
 }
@@ -360,13 +361,13 @@ input:focus {
 }
 
 .project {
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
   box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.7);
   position: relative;
   width: 100%;
-  max-width: 500px;
-  margin-left: 20px;
-  margin-right: 45px;
+  max-width: 510px;
+  margin-left: 35px;
+  margin-right: 35px;
   margin-bottom: 20px;
   margin-top: 10px;
 }
@@ -419,7 +420,7 @@ input:focus {
 
 @media (max-width: 1989px) {
   .project {
-    transition: all 0.6s ease-in-out;
+    transition: all 0.5s ease-in-out;
     box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.7);
     position: relative;
     width: 100%;
@@ -475,7 +476,7 @@ input:focus {
 
 @media (max-width: 1213px) {
   .project {
-    transition: all 0.3s ease-in-out;
+    transition: all 0.5s ease-in-out;
     box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.7);
     position: relative;
     width: 100%;
