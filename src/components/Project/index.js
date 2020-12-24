@@ -17,7 +17,7 @@ function Project({ project }) {
         }
         <div className="project-text">
           <h3>
-            <a href={link}>{name}</a>{" "}
+            <a href={link}>{name}</a>{'\u00A0'}{'\u00A0'}
             <a href={repo}>
               <i className="fab fa-github"></i>
             </a>

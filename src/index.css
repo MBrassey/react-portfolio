@@ -38,7 +38,7 @@ body {
   color: var(--dark);
 }
 i {
-  box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.7);
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
   cursor: url(https://raw.githubusercontent.com/MBrassey/MediaStore/main/Images/cursor-hand.png),
     auto;
 }
@@ -231,19 +231,19 @@ ul.skills li {
 }
 
 footer {
+  text-align: center;
   background-color: transparent;
   font-size: 48px;
-  vertical-align: middle;
-  position: relative;
-  height: 200px;
-  bottom: 0;
+  padding-top: 70px;
+  height: 60px;
+  margin-bottom: 100px;
 }
 
 footer a {
+  margin-right: 100px;
+  margin-left: 100px;
   color: var(--secondary);
-  align-items: center;
   opacity: 0.5;
-  padding-left: 120px;
   transition: all 0.3s ease-in-out;
 }
 
@@ -434,6 +434,23 @@ input:focus {
     margin-bottom: 20px;
     margin-top: 10px;
   }
+
+  footer {
+    text-align: center;
+    background-color: transparent;
+    font-size: 50px;
+    padding-top: 60px;
+    height: 60px;
+    margin-bottom: 100px;
+  }
+  
+  footer a {
+    margin-right: 80px;
+    margin-left: 80px;
+    color: var(--secondary);
+    opacity: 0.5;
+    transition: all 0.3s ease-in-out;
+  }
 }
 
 @media (max-width: 1767px) {
@@ -447,6 +464,23 @@ input:focus {
     margin-right: 45px;
     margin-bottom: 20px;
     margin-top: 10px;
+  }
+
+  footer {
+    text-align: center;
+    background-color: transparent;
+    font-size: 50px;
+    padding-top: 50px;
+    height: 60px;
+    margin-bottom: 100px;
+  }
+  
+  footer a {
+    margin-right: 70px;
+    margin-left: 70px;
+    color: var(--secondary);
+    opacity: 0.5;
+    transition: all 0.3s ease-in-out;
   }
 }
 
@@ -462,6 +496,23 @@ input:focus {
     margin-bottom: 20px;
     margin-top: 10px;
   }
+
+  footer {
+    text-align: center;
+    background-color: transparent;
+    font-size: 50px;
+    padding-top: 45px;
+    height: 60px;
+    margin-bottom: 100px;
+  }
+  
+  footer a {
+    margin-right: 70px;
+    margin-left: 70px;
+    color: var(--secondary);
+    opacity: 0.5;
+    transition: all 0.3s ease-in-out;
+  }
 }
 
 @media (max-width: 1323px) {
@@ -475,6 +526,23 @@ input:focus {
     margin-right: 45px;
     margin-bottom: 20px;
     margin-top: 10px;
+  }
+
+  footer {
+    text-align: center;
+    background-color: transparent;
+    font-size: 50px;
+    padding-top: 40px;
+    height: 60px;
+    margin-bottom: 90px;
+  }
+  
+  footer a {
+    margin-right: 70px;
+    margin-left: 70px;
+    color: var(--secondary);
+    opacity: 0.5;
+    transition: all 0.3s ease-in-out;
   }
 }
 
@@ -493,6 +561,23 @@ input:focus {
 
   .scramble {
     width: 435px;
+  }
+
+  footer {
+    text-align: center;
+    background-color: transparent;
+    font-size: 50px;
+    padding-top: 30px;
+    height: 60px;
+    margin-bottom: 80px;
+  }
+  
+  footer a {
+    margin-right: 70px;
+    margin-left: 70px;
+    color: var(--secondary);
+    opacity: 0.5;
+    transition: all 0.3s ease-in-out;
   }
 }
 
@@ -540,6 +625,23 @@ input:focus {
   .scramble {
     width: 325px;
   }
+
+  footer {
+    text-align: center;
+    background-color: transparent;
+    font-size: 50px;
+    padding-top: 20px;
+    height: 60px;
+    margin-bottom: 70px;
+  }
+  
+  footer a {
+    margin-right: 70px;
+    margin-left: 70px;
+    color: var(--secondary);
+    opacity: 0.5;
+    transition: all 0.3s ease-in-out;
+  }
 }
 
 @media (max-width: 972px) {
@@ -586,6 +688,23 @@ input:focus {
   .scramble {
     width: 455px;
   }
+
+  footer {
+    text-align: center;
+    background-color: transparent;
+    font-size: 50px;
+    padding-top: 10px;
+    height: 60px;
+    margin-bottom: 60px;
+  }
+  
+  footer a {
+    margin-right: 60px;
+    margin-left: 60px;
+    color: var(--secondary);
+    opacity: 0.5;
+    transition: all 0.3s ease-in-out;
+  }
 }
 
 @media (max-width: 726px) {
@@ -593,17 +712,36 @@ input:focus {
     font-family: "Orbitron", sans-serif;
     font-size: 2.5rem;
   }
+
   nav ul {
     display: block;
     justify-content: center;
     align-items: center;
     list-style: none;
   }
+
   header {
     height: 220px;
     position: relative;
     overflow: hidden;
     z-index: 2;
+  }
+
+  footer {
+    text-align: center;
+    background-color: transparent;
+    font-size: 45px;
+    padding-top: 0px;
+    height: 60px;
+    margin-bottom: 60px;
+  }
+  
+  footer a {
+    margin-right: 50px;
+    margin-left: 50px;
+    color: var(--secondary);
+    opacity: 0.5;
+    transition: all 0.3s ease-in-out;
   }
 }
 
@@ -613,5 +751,22 @@ input:focus {
     position: relative;
     overflow: hidden;
     z-index: 2;
+  }
+
+  footer {
+    text-align: center;
+    background-color: transparent;
+    font-size: 45px;
+    padding-top: 0px;
+    height: 60px;
+    margin-bottom: 60px;
+  }
+  
+  footer a {
+    margin-right: 40px;
+    margin-left: 40px;
+    color: var(--secondary);
+    opacity: 0.5;
+    transition: all 0.3s ease-in-out;
   }
 }
