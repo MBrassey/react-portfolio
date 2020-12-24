@@ -897,7 +897,7 @@ input:focus {
   .dev-icons {
     color: var(--Stone);
     padding-left: 0.1vw;
-    font-size: 15.8px;
+    font-size: 21px;
   }
 
   footer {
@@ -928,5 +928,15 @@ input:focus {
   .CAcontainer {
     width: 272px;
     height: 192px;
+  }
+
+  .dev-icons li {
+    margin-right: 6px;
+  }
+
+  .dev-icons {
+    color: var(--Stone);
+    padding-left: 0.1vw;
+    font-size: 20.1px;
   }
 }
