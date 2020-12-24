@@ -8,7 +8,7 @@ function About() {
     <FadeIn>
       <section className="my-5">
         <div className="my-2">
-          <div className="my-5">
+          <div className="my-5 profileImg">
           <LazyLoadImage
               src={ProfilePicture}
               alt="Matt's Profile Picture"
@@ -16,15 +16,15 @@ function About() {
                 borderRadius: "3%",
                 overflow: "visible",
                 boxShadow: "0 12px 24px 0 rgba(0, 0, 0, 0.7)",
-                height: "240px",
-                width: "240px",
+                height: "100%",
+                width: "100%",
                 marginTop: "9px",
                 border: "solid 3px black",
               }}
             />
           </div>
           <div className="about-text">
-            Welcome, I'm Matt Brassey - Full stack blockchain developer with
+            I'm <strong>Matt Brassey</strong> - Full stack blockchain developer with
             SysOps & DevOps background. Known among staff for strong wit and
             attention to detail no matter the complexity of the project or
             severity of it’s operations. Proven experience applying continuous

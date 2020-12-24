@@ -142,8 +142,9 @@ button {
   outline: none;
   cursor: url(https://raw.githubusercontent.com/MBrassey/MediaStore/main/Images/cursor-hand.png),
     auto;
-  margin: 0 1px;
+  margin-top: 20px;
   background-color: var(--dark);
+  transition: all 0.3s ease-in-out;
   box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.7);
   padding: 10px 15px;
   opacity: 0.7;
@@ -236,7 +237,7 @@ footer {
   font-size: 48px;
   padding-top: 70px;
   height: 60px;
-  margin-bottom: 100px;
+  margin-bottom: 170px;
 }
 
 footer a {
@@ -252,9 +253,10 @@ footer a:hover {
 }
 
 textarea {
-  width: 600px;
+  border-radius: 2%;
+  width: 100%;
   height: 200px;
-  border: 3px solid #cfd2d0;
+  border: 2px solid var(--primary);
   padding: 5px;
   margin-top: 10px;
   background-color: #c1c4ba;
@@ -270,11 +272,11 @@ input {
   margin: 10px 0;
   font-size: 1rem;
   padding: 0.25rem;
-  width: 600px;
+  width: 100%;
   border: 1px solid var(--dark);
   box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.7);
   outline: none;
-  border-radius: 3px;
+  border-radius: 2%;
   transition: box-shadow 0.2s;
   background-color: #c1c4ba;
 }
@@ -287,6 +289,12 @@ input:focus {
 
 .contact {
   padding-top: 30px;
+  width: 1700px;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact-item {
+  width: 100%;
 }
 
 .container {
@@ -422,6 +430,12 @@ input:focus {
   width: 455px;
 }
 
+.profileImg {
+  text-align: center;
+  height: 240px;
+  width: 240px;
+}
+
 @media (max-width: 1989px) {
   .project {
     transition: all 0.5s ease-in-out;
@@ -441,9 +455,9 @@ input:focus {
     font-size: 50px;
     padding-top: 60px;
     height: 60px;
-    margin-bottom: 100px;
+    margin-bottom: 160px;
   }
-  
+
   footer a {
     margin-right: 80px;
     margin-left: 80px;
@@ -472,9 +486,9 @@ input:focus {
     font-size: 50px;
     padding-top: 50px;
     height: 60px;
-    margin-bottom: 100px;
+    margin-bottom: 140px;
   }
-  
+
   footer a {
     margin-right: 70px;
     margin-left: 70px;
@@ -490,7 +504,7 @@ input:focus {
     box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.7);
     position: relative;
     width: 100%;
-    max-width: 500px;
+    max-width: 520px;
     margin-left: 20px;
     margin-right: 45px;
     margin-bottom: 20px;
@@ -503,9 +517,9 @@ input:focus {
     font-size: 50px;
     padding-top: 45px;
     height: 60px;
-    margin-bottom: 100px;
+    margin-bottom: 120px;
   }
-  
+
   footer a {
     margin-right: 70px;
     margin-left: 70px;
@@ -515,7 +529,7 @@ input:focus {
   }
 }
 
-@media (max-width: 1323px) {
+@media (max-width: 1370px) {
   .project {
     transition: all 0.3s ease-in-out;
     box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.7);
@@ -536,7 +550,7 @@ input:focus {
     height: 60px;
     margin-bottom: 90px;
   }
-  
+
   footer a {
     margin-right: 70px;
     margin-left: 70px;
@@ -571,7 +585,7 @@ input:focus {
     height: 60px;
     margin-bottom: 80px;
   }
-  
+
   footer a {
     margin-right: 70px;
     margin-left: 70px;
@@ -632,9 +646,9 @@ input:focus {
     font-size: 50px;
     padding-top: 20px;
     height: 60px;
-    margin-bottom: 70px;
+    margin-bottom: 80px;
   }
-  
+
   footer a {
     margin-right: 70px;
     margin-left: 70px;
@@ -651,6 +665,7 @@ input:focus {
     overflow: hidden;
     z-index: 2;
   }
+
   nav {
     position: relative;
     font-family: "Orbitron", sans-serif;
@@ -689,21 +704,24 @@ input:focus {
     width: 455px;
   }
 
+  .contact {
+    width: 1400px;
+  }
+
   footer {
     text-align: center;
     background-color: transparent;
     font-size: 50px;
     padding-top: 10px;
     height: 60px;
-    margin-bottom: 60px;
+    margin-bottom: 70px;
   }
-  
+
   footer a {
     margin-right: 60px;
     margin-left: 60px;
     color: var(--secondary);
     opacity: 0.5;
-    transition: all 0.3s ease-in-out;
   }
 }
 
@@ -721,38 +739,48 @@ input:focus {
   }
 
   header {
-    height: 220px;
-    position: relative;
-    overflow: hidden;
-    z-index: 2;
-  }
-
-  footer {
-    text-align: center;
-    background-color: transparent;
-    font-size: 45px;
-    padding-top: 0px;
-    height: 60px;
-    margin-bottom: 60px;
-  }
-  
-  footer a {
-    margin-right: 50px;
-    margin-left: 50px;
-    color: var(--secondary);
-    opacity: 0.5;
-    transition: all 0.3s ease-in-out;
-  }
-}
-
-@media (max-width: 567px) {
-  header {
     height: 340px;
     position: relative;
     overflow: hidden;
     z-index: 2;
   }
 
+  nav {
+    text-align: right;
+  }
+
+  nav ul {
+    width: 100%;
+    justify-content: right;
+    align-items: right;
+    text-align: right;
+  }
+
+  .profileImg {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+  }
+
+  .project {
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.7);
+    position: relative;
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+  }
+
+  .contact {
+    width: 1180px;
+  }
+
+  button {
+    width: 450px;
+  }
+
   footer {
     text-align: center;
     background-color: transparent;
@@ -761,12 +789,85 @@ input:focus {
     height: 60px;
     margin-bottom: 60px;
   }
-  
+
   footer a {
-    margin-right: 40px;
-    margin-left: 40px;
+    margin-right: 50px;
+    margin-left: 50px;
     color: var(--secondary);
     opacity: 0.5;
-    transition: all 0.3s ease-in-out;
+  }
+}
+
+@media (max-width: 567px) {
+  header {
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+  }
+
+  nav {
+    text-align: right;
+  }
+
+  nav ul {
+    width: 100%;
+    justify-content: right;
+    align-items: right;
+    text-align: right;
+  }
+
+  .profileImg {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+  }
+
+  .about-text {
+    font-size: 16px;
+  }
+
+  .project {
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.7);
+    position: relative;
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+  }
+
+  .contact {
+    width: 800px;
+  }
+
+  button {
+    width: 340px;
+  }
+
+  footer {
+    text-align: center;
+    background-color: transparent;
+    font-size: 45px;
+    padding-top: 0px;
+    height: 60px;
+  }
+
+  footer a {
+    margin-right: 20px;
+    margin-left: 20px;
+    color: var(--secondary);
+    opacity: 0.5;
+  }
+}
+
+@media (max-width: 413px) {
+  .contact {
+    width: 690px;
+  }
+
+  button {
+    width: 270px;
   }
 }

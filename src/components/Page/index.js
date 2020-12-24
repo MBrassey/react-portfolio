@@ -1,6 +1,7 @@
 import { capitalizeFirstLetter } from "../../utils/helpers";
 import PageContent from "../PageContent";
 import Portfolio from "../Portfolio";
+import FadeIn from "react-fade-in";
 import Contact from "../Contact";
 import Resume from "../Resume";
 import About from "../About";
@@ -12,7 +13,7 @@ function Page({ currentPage }) {
       case "about me":
         return <About />;
       case "portfolio":
-        return <Portfolio />;
+        return (<FadeIn><Portfolio /></FadeIn>);
       case "contact":
         return <Contact />;
       case "resume":
