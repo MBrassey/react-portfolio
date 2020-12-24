@@ -1,14 +1,13 @@
-import FadeIn from "react-fade-in";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import React from "react";
 
 function Project({ project }) {
   const { name, repo, link, description } = project;
 
   return (
-    <FadeIn>
       <div className="project" key={name}>
         {
-          <img
+          <LazyLoadImage
             src={require(`../../assets/projects/${name}.png`)}
             alt={name}
             className="project-bg"
@@ -16,7 +15,7 @@ function Project({ project }) {
         }
         <div className="project-text">
           <h3>
-            <a href={link}>{name}</a>{" "}
+            <a href={link}>{name}</a>{'\u00A0'}{'\u00A0'}
             <a href={repo}>
               <i className="fab fa-github"></i>
             </a>
@@ -24,7 +23,6 @@ function Project({ project }) {
           <p>{description}</p>
         </div>
       </div>
-    </FadeIn>
   );
 }
 
