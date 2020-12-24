@@ -437,6 +437,40 @@ input:focus {
   width: 240px;
 }
 
+.CAcontainer {
+  overflow: hidden;
+  padding-top: -40px;
+  border: 3px solid var(--primary);
+  width: 850px;
+  height: 600px;
+  transition: all 0.5s ease-in-out;
+}
+
+.CodingActivity {
+  background-image: url("https://wakatime.com/share/@532855a8-3081-4600-a53d-4262beb65d14/c4e5e127-88a0-4bfb-b904-6dff99e4cfe4.svg");
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.dev-icons li {
+  display: inline-block;
+  list-style-type: none;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.dev-icons {
+  color: var(--Stone);
+  padding-left: 0.7vw;
+  font-size: 70px;
+}
+
+.dev-icons a {
+  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: var(--Azure);
+}
+
 @media (max-width: 1989px) {
   .project {
     transition: all 0.5s ease-in-out;
@@ -610,10 +644,6 @@ input:focus {
     margin-top: 0%;
   }
 
-  nav a:hover {
-    border-bottom: 18px solid var(--secondary);
-  }
-
   nav li {
     cursor: url(https://raw.githubusercontent.com/MBrassey/MediaStore/main/Images/cursor-hand.png),
       auto;
@@ -681,10 +711,6 @@ input:focus {
     margin: 0 50px;
   }
 
-  nav a:hover {
-    border-bottom: 18px solid var(--secondary);
-  }
-
   nav ul {
     display: flex;
     flex-wrap: wrap;
@@ -707,6 +733,17 @@ input:focus {
 
   .contact {
     width: 1400px;
+  }
+
+  .CAcontainer {
+    width: 630px;
+    height: 445px;
+  }
+
+  .dev-icons {
+    color: var(--Stone);
+    padding-left: 0.7vw;
+    font-size: 44.2px;
   }
 
   footer {
@@ -770,6 +807,17 @@ input:focus {
 
   button {
     width: 470px;
+  }
+
+  .CAcontainer {
+    width: 465px;
+    height: 328px;
+  }
+
+  .dev-icons {
+    color: var(--Stone);
+    padding-left: 0.7vw;
+    font-size: 28px;
   }
 
   footer {
@@ -837,6 +885,21 @@ input:focus {
     width: 320px;
   }
 
+  .CAcontainer {
+    width: 315px;
+    height: 222px;
+  }
+
+  .dev-icons li {
+    margin-right: 10px;
+  }
+
+  .dev-icons {
+    color: var(--Stone);
+    padding-left: 0.1vw;
+    font-size: 15.8px;
+  }
+
   footer {
     text-align: center;
     background-color: transparent;
@@ -860,5 +923,10 @@ input:focus {
 
   button {
     width: 275px;
+  }
+
+  .CAcontainer {
+    width: 272px;
+    height: 192px;
   }
 }
