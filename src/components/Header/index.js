@@ -5,7 +5,7 @@ import "./index.scss";
 
 const scrambleTexts: ScrambleTexts = [
   "Matt Brassey",
-  "FullStack Developer",
+  "Software Developer",
   "matt@brassey.io",
 ];
 

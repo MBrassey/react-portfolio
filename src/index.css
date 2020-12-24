@@ -187,6 +187,7 @@ li {
   border-radius: 2%;
   box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.7);
   padding: 22px;
+
 }
 
 nav {
@@ -731,15 +732,8 @@ input:focus {
     font-size: 2.5rem;
   }
 
-  nav ul {
-    display: block;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-  }
-
   header {
-    height: 340px;
+    height: 350px;
     position: relative;
     overflow: hidden;
     z-index: 2;
@@ -749,11 +743,8 @@ input:focus {
     text-align: right;
   }
 
-  nav ul {
-    width: 100%;
-    justify-content: right;
-    align-items: right;
-    text-align: right;
+  .mx-2 {
+    display: block;
   }
 
   .profileImg {
@@ -778,7 +769,7 @@ input:focus {
   }
 
   button {
-    width: 450px;
+    width: 470px;
   }
 
   footer {
@@ -843,7 +834,7 @@ input:focus {
   }
 
   button {
-    width: 340px;
+    width: 320px;
   }
 
   footer {
@@ -868,6 +859,6 @@ input:focus {
   }
 
   button {
-    width: 270px;
+    width: 275px;
   }
 }

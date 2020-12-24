@@ -10,7 +10,7 @@ function Nav(props) {
 
   return (
     <nav>
-      <ul className="nav-item flex-row">
+      <ul className="flex-row">
         {pages.map((Page) => (
           <li
             className={`mx-2 ${currentPage.name === Page.name && "navActive"}`}
