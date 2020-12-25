@@ -27,11 +27,11 @@ Developer portfolio application that uses React state, props, Hooks, and reusabl
 
 <h6><p align="right">:cyclone: Click the image(s) below to view the live <a id="Screenshots" href="https://brassey.io/">webapplication</a></p></h6>
 
-> Demo Video
-> [<img src="src/assets/cover/VideoPreview.png">](https://youtu.be/3ETl6QGOOsY)
-
 > Application Preview
 > [<img src="src/assets/cover/Preview.png">](https://brassey.io/)
+
+> Demo Video
+> [<img src="src/assets/cover/VideoPreview.png">](https://youtu.be/3ETl6QGOOsY)
 
 > Setup
 > [<img src="src/assets/cover/Setup.gif">](https://brassey.io/)
