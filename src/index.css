@@ -142,7 +142,7 @@ button {
   outline: none;
   cursor: url(https://raw.githubusercontent.com/MBrassey/MediaStore/main/Images/cursor-hand.png),
     auto;
-  margin-top: 20px;
+  margin-top: 33px;
   background-color: var(--dark);
   transition: all 0.3s ease-in-out;
   box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.7);
@@ -187,7 +187,16 @@ li {
   border-radius: 2%;
   box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.7);
   padding: 22px;
+}
 
+.resume-text {
+  transition: all 0.5s ease-in-out;
+  background-color: var(--darker);
+  font-family: "Aldrich", sans-serif;
+  border-radius: 2%;
+  box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.7);
+  padding: 22px;
+  width: 850px;
 }
 
 nav {
@@ -260,13 +269,16 @@ textarea {
   border: 2px solid var(--primary);
   padding: 5px;
   margin-top: 10px;
-  background-color: #c1c4ba;
+  background-color: var(--dark);
 }
 
 textarea:focus {
+  font-family: "Aldrich", sans-serif;
+  color: var(--darker);
   border: 1px solid var(--secondary);
   box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5);
-  background-color: #cfd2d0;
+  background-color: var(--light);
+  font-size: 1.05rem;
 }
 
 input {
@@ -279,16 +291,18 @@ input {
   outline: none;
   border-radius: 2%;
   transition: box-shadow 0.2s;
-  background-color: #c1c4ba;
+  background-color: var(--dark);
 }
 
 input:focus {
   border: 1px solid var(--secondary);
   box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5);
-  background-color: #cfd2d0;
+  background-color: var(--light);
 }
 
 .contact {
+  font-family: "Aldrich", sans-serif;
+  color: var(--light);
   padding-top: 30px;
   width: 1700px;
   transition: all 0.3s ease-in-out;
@@ -416,6 +430,11 @@ input:focus {
   font-size: 2.7rem;
 }
 
+.project-text p {
+  font-size: 1.4em;
+  line-height: 38px;
+}
+
 .project-text a {
   text-decoration: none;
   font-weight: bold;
@@ -438,6 +457,7 @@ input:focus {
 }
 
 .CAcontainer {
+  margin-top: 40px;
   overflow: hidden;
   padding-top: -40px;
   border: 3px solid var(--primary);
@@ -447,7 +467,7 @@ input:focus {
 }
 
 .CodingActivity {
-  background-image: url("https://wakatime.com/share/@532855a8-3081-4600-a53d-4262beb65d14/c4e5e127-88a0-4bfb-b904-6dff99e4cfe4.svg");
+  background-image: url("https://wakatime.com/share/@532855a8-3081-4600-a53d-4262beb65d14/c2fbe54d-dd40-494a-a681-17ac5c8d8684.svg");
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -461,13 +481,16 @@ input:focus {
 }
 
 .dev-icons {
+  margin-top: 28px;
   color: var(--Stone);
   padding-left: 0.7vw;
   font-size: 70px;
 }
 
 .dev-icons a {
-  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   color: var(--Azure);
 }
 
@@ -484,11 +507,20 @@ input:focus {
     margin-top: 10px;
   }
 
+  .project-text p {
+    font-size: 2.3em;
+    line-height: 50px;
+  }
+
+  .project-text h3 {
+    font-size: 3.5em;
+  }
+
   footer {
     text-align: center;
     background-color: transparent;
     font-size: 50px;
-    padding-top: 60px;
+    padding-top: 0px;
     height: 60px;
     margin-bottom: 160px;
   }
@@ -515,11 +547,20 @@ input:focus {
     margin-top: 10px;
   }
 
+  .project-text p {
+    font-size: 1.6em;
+    line-height: 42px;
+  }
+
+  .project-text h3 {
+    font-size: 2.8em;
+  }
+
   footer {
     text-align: center;
     background-color: transparent;
     font-size: 50px;
-    padding-top: 50px;
+    padding-top: 0px;
     height: 60px;
     margin-bottom: 140px;
   }
@@ -546,11 +587,20 @@ input:focus {
     margin-top: 10px;
   }
 
+  .project-text p {
+    font-size: 1.4em;
+    line-height: 38px;
+  }
+
+  .project-text h3 {
+    font-size: 2.5em;
+  }
+
   footer {
     text-align: center;
     background-color: transparent;
     font-size: 50px;
-    padding-top: 45px;
+    padding-top: 0px;
     height: 60px;
     margin-bottom: 120px;
   }
@@ -577,11 +627,20 @@ input:focus {
     margin-top: 10px;
   }
 
+  
+  .project-text p {
+    font-size: 1.2em;
+  }
+
+  .project-text h3 {
+    font-size: 2.1em;
+  }
+
   footer {
     text-align: center;
     background-color: transparent;
     font-size: 50px;
-    padding-top: 40px;
+    padding-top: 0px;
     height: 60px;
     margin-bottom: 90px;
   }
@@ -612,11 +671,20 @@ input:focus {
     width: 435px;
   }
 
+  .project-text p {
+    line-height: 60px;
+    font-size: 1.8em;
+  }
+
+  .project h3 {
+    font-size: 4em;
+  }
+
   footer {
     text-align: center;
     background-color: transparent;
     font-size: 50px;
-    padding-top: 30px;
+    padding-top: 0px;
     height: 60px;
     margin-bottom: 80px;
   }
@@ -671,11 +739,20 @@ input:focus {
     width: 325px;
   }
 
+  .project-text p {
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+
+  .project h3 {
+    font-size: 4em;
+  }
+
   footer {
     text-align: center;
     background-color: transparent;
     font-size: 50px;
-    padding-top: 20px;
+    padding-top: 0px;
     height: 60px;
     margin-bottom: 80px;
   }
@@ -746,11 +823,24 @@ input:focus {
     font-size: 44.2px;
   }
 
+  .resume-text {
+    width: 630px;
+  }
+
+  .project-text p {
+    line-height: 45px;
+    font-size: 1.6em;
+  }
+
+  .project h3 {
+    font-size: 2.8em;
+  }
+
   footer {
     text-align: center;
     background-color: transparent;
     font-size: 50px;
-    padding-top: 10px;
+    padding-top: 0px;
     height: 60px;
     margin-bottom: 70px;
   }
@@ -764,13 +854,8 @@ input:focus {
 }
 
 @media (max-width: 726px) {
-  nav {
-    font-family: "Orbitron", sans-serif;
-    font-size: 2.5rem;
-  }
-
   header {
-    height: 350px;
+    height: 140px;
     position: relative;
     overflow: hidden;
     z-index: 2;
@@ -778,10 +863,18 @@ input:focus {
 
   nav {
     text-align: right;
+    font-size: 21px;
+  }
+
+  nav ul {
+    width: 100%;
+    text-align: center;
   }
 
   .mx-2 {
-    display: block;
+    display: inline-block;
+    margin-right: var(--spacing-one);
+    margin-left: var(--spacing-one);
   }
 
   .profileImg {
@@ -806,7 +899,7 @@ input:focus {
   }
 
   button {
-    width: 470px;
+    width: 465px;
   }
 
   .CAcontainer {
@@ -818,6 +911,19 @@ input:focus {
     color: var(--Stone);
     padding-left: 0.7vw;
     font-size: 28px;
+  }
+
+  .resume-text {
+    width: 465px;
+  }
+
+  .project-text p {
+    font-size: 1.5em;
+    line-height: 37px;
+  }
+
+  .project h3 {
+    font-size: 2.3em;
   }
 
   footer {
@@ -837,9 +943,9 @@ input:focus {
   }
 }
 
-@media (max-width: 567px) {
+@media (max-width: 598px) {
   header {
-    height: 350px;
+    height: 140px;
     position: relative;
     overflow: hidden;
     z-index: 2;
@@ -847,13 +953,12 @@ input:focus {
 
   nav {
     text-align: right;
+    font-size: 12px;
   }
 
   nav ul {
     width: 100%;
-    justify-content: right;
-    align-items: right;
-    text-align: right;
+    text-align: center;
   }
 
   .profileImg {
@@ -882,7 +987,7 @@ input:focus {
   }
 
   button {
-    width: 320px;
+    width: 315px;
   }
 
   .CAcontainer {
@@ -898,6 +1003,19 @@ input:focus {
     color: var(--Stone);
     padding-left: 0.1vw;
     font-size: 21px;
+  }
+
+  .resume-text {
+    width: 315px;
+  }
+
+  .project-text p {
+    font-size: .9em;
+    line-height: 30px;
+  }
+
+  .project-text h3 {
+    font-size: 1.6em;
   }
 
   footer {
@@ -916,7 +1034,24 @@ input:focus {
   }
 }
 
-@media (max-width: 413px) {
+@media (max-width: 420px) {
+  header {
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+  }
+
+  nav {
+    text-align: right;
+    font-size: 40px;
+  }
+
+  nav ul {
+    width: 100%;
+    text-align: right;
+  }
+
   .contact {
     width: 690px;
   }
@@ -934,9 +1069,21 @@ input:focus {
     margin-right: 6px;
   }
 
+  .resume-text {
+    width: 275px;
+  }
+
   .dev-icons {
     color: var(--Stone);
     padding-left: 0.1vw;
     font-size: 20.1px;
+  }
+
+  .project-text p {
+    display: none;
+  }
+
+  .project-text h3 {
+    font-size: .6em;
   }
 }

@@ -38,7 +38,7 @@ function Contact() {
 
   return (
     <FadeIn>
-      <div class="contact">
+      <div className="contact">
         <section>
           <form id="contact-form" onSubmit={handleSubmit}>
             <div>
