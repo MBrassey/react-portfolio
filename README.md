@@ -30,8 +30,8 @@ Developer portfolio application that uses React state, props, Hooks, and reusabl
 > Application Demonstration
 > [<img src="src/assets/cover/VideoPreview.png">](https://youtu.be/3ETl6QGOOsY)
 
-> Tests Passing (coming soon)
-> [<img src="images/Routes.gif">](https://brassey.io/)
+> Setup
+> [<img src="src/assets/cover/Routes.gif">](https://brassey.io/)
 
 #### Questions
 
