@@ -828,12 +828,12 @@ input:focus {
   }
 
   .project-text p {
-    line-height: 45px;
+    line-height: 40px;
     font-size: 1.6em;
   }
 
   .project h3 {
-    font-size: 2.8em;
+    font-size: 2.5em;
   }
 
   footer {
@@ -923,7 +923,7 @@ input:focus {
   }
 
   .project h3 {
-    font-size: 2.3em;
+    font-size: 2.2em;
   }
 
   footer {
@@ -1010,12 +1010,12 @@ input:focus {
   }
 
   .project-text p {
-    font-size: .9em;
-    line-height: 30px;
+    font-size: .8em;
+    line-height: 20px;
   }
 
   .project-text h3 {
-    font-size: 1.6em;
+    font-size: 1.2em;
   }
 
   footer {
@@ -1080,10 +1080,33 @@ input:focus {
   }
 
   .project-text p {
-    display: none;
+    font-size: 3.2vw;
+    line-height: 18px;
   }
 
   .project-text h3 {
-    font-size: .6em;
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 380px) {
+  .project-text p {
+    font-size: 2.9vw;
+    line-height: 16px;
+  }
+
+  .project-text h3 {
+    font-size: .8em;
+  }
+}
+
+@media (max-width: 350px) {
+  .project-text p {
+    font-size: 2.8vw;
+    line-height: 13px;
+  }
+
+  .project-text h3 {
+    font-size: .8em;
   }
 }
