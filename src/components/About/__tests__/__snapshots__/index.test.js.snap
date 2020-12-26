@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About component matches snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      style="transition: opacity 400ms, transform 400ms; transform: translateY(20px); opacity: 0;"
+    >
+      <section
+        class="my-5"
+      >
+        <div
+          class="my-2"
+        >
+          <div
+            class="my-5 profileImg"
+          >
+            <img
+              alt="Matt's Profile Picture"
+              src="profile.jpg"
+              style="border-radius: 3%; overflow: visible; box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.7); height: 100%; width: 100%; margin-top: 9px; border: 3px solid black;"
+            />
+          </div>
+          <div
+            class="about-text"
+          >
+            I'm 
+            <strong>
+              Matt Brassey
+            </strong>
+             - Full stack blockchain developer with SysOps & DevOps background. Known among staff for strong wit and attention to detail no matter the complexity of the project or severity of it’s operations. Proven experience applying continuous integration within small group and large, corporate team settings. Strong ability to modularize large, complex project objectives into concise and manageable parts. Recently completed a 24-week bootcamp earning a certificate in full stack development from the University of Arizona. Intense interest in distributed systems, decentralized finance and blockchain technology. Keen technologist with an insatiable desire to learn, build, improve and collaborate on world changing platforms and applications.
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</DocumentFragment>
+`;

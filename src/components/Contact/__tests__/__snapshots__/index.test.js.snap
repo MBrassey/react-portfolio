@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contact component matches snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      style="transition: opacity 400ms, transform 400ms; transform: translateY(20px); opacity: 0;"
+    >
+      <div
+        class="contact"
+      >
+        <section>
+          <form
+            id="contact-form"
+          >
+            <div>
+              <label
+                for="name"
+              >
+                Name:
+              </label>
+              <input
+                name="name"
+                type="text"
+                value=""
+              />
+            </div>
+            <div>
+              <label
+                for="email"
+              >
+                Email address:
+              </label>
+              <input
+                name="email"
+                type="email"
+                value=""
+              />
+            </div>
+            <div>
+              <label
+                for="message"
+              >
+                Message:
+              </label>
+              <textarea
+                name="message"
+                rows="5"
+              />
+            </div>
+            <button
+              type="submit"
+            >
+              Submit
+            </button>
+          </form>
+        </section>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
