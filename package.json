@@ -2,6 +2,7 @@
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": false,
+  "author": "Matt Brassey",
   "homepage": "https://brassey.io/",
   "description": "Developer portfolio application that uses React state, props, Hooks, and reusable UI components",
   "dependencies": {
