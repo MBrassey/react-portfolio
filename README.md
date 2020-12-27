@@ -40,7 +40,7 @@ Developer portfolio application that uses React state, props, Hooks, and reusabl
 > [<img src="src/assets/cover/Setup.gif">](https://brassey.io/)
 
 > Testing with Jest
-> [<img src="src/assets/cover/Test.gif">](https://brassey.io/)
+> [<img src="src/assets/cover/Test.gif">](https://wakatime.com/projects/react-portfolio?start=2020-12-21&end=2020-12-27)
 
 #### Questions
 
