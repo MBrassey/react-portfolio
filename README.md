@@ -2,7 +2,7 @@
 Developer portfolio application that uses React state, props, Hooks, and reusable UI components. Third party libraries are imported for lazy loading, animation effects and style. Jest framework used to test components.
 
 [![licensebadge](https://img.shields.io/badge/license-CC0_1.0_Universal-blue)](https://github.com/MBrassey/react-portfolio/blob/main/LICENSE)
-[![time tracker](https://wakatime.com/badge/github/MBrassey/react-portfolio.svg)](https://wakatime.com/badge/github/MBrassey/react-portfolio)
+[![time tracker](https://wakatime.com/badge/github/MBrassey/react-portfolio.svg)](https://wakatime.com/projects/react-portfolio?start=2020-12-21&end=2020-12-27)
 
 #### Issues
 
