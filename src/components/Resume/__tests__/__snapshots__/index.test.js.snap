@@ -1,0 +1,201 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Resume component matches snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      style="transition: opacity 400ms, transform 400ms; transform: translateY(20px); opacity: 0;"
+    >
+      <section
+        class="my-5"
+      >
+        <div
+          class="my-2"
+        >
+          <br />
+          <div
+            class="resume-text"
+          >
+             My past six years of expreience in the areas of: 
+            <strong>
+              Git
+            </strong>
+            ,
+            <strong>
+               Bash
+            </strong>
+            ,
+            <strong>
+               Markdown
+            </strong>
+            ,
+            <strong>
+               HTML5
+            </strong>
+            ,
+            <strong>
+               CSS3
+            </strong>
+            , 
+            <strong>
+               JS[ES6]
+            </strong>
+            ,
+            <strong>
+               Node
+            </strong>
+            , 
+            <strong>
+               MySQL
+            </strong>
+            ,
+            <strong>
+               MongoDB
+            </strong>
+            , 
+            <strong>
+               Express
+            </strong>
+            ,
+            <strong>
+               React
+            </strong>
+            , 
+            <strong>
+              JSX
+            </strong>
+             &
+            <strong>
+               Solidity
+            </strong>
+             are documented and can be reviewed on my 
+            <a
+              href="https://github.com/MBrassey"
+            >
+              github
+            </a>
+             profile. I recently obtained the 
+            <strong>
+              <a
+                href="https://www.credential.net/44a73119-b770-4a10-901c-7aa6508d5c65"
+              >
+                Certified Blockchain Architect
+              </a>
+            </strong>
+             credential from the 
+            <strong>
+              <a
+                href="https://www.blockchain-council.org"
+              >
+                Blockchain Council
+              </a>
+            </strong>
+            , as well as a 
+            <strong>
+              Full Stack Development Certification 
+            </strong>
+            from the 
+            <strong>
+              University of Arizona
+            </strong>
+             for completing a 24 Week Intensive Coding Bootcamp. I'm currently open to and actively seeking work in the areas of front/back end web & blockchain development. My resume is provided below, along with a chart depicting my past week's coding activity and badges representing my areas of proficiency. 
+          </div>
+          <form
+            action="https://brassey.io/resume.pdf"
+            method="get"
+            target="_blank"
+          >
+            <button
+              alt="Download My Resume"
+              type="submit"
+            >
+              Download My Resume
+            </button>
+          </form>
+          <div
+            class="CAcontainer"
+          >
+            <div
+              class="CodingActivity"
+            />
+          </div>
+          <ul
+            class="dev-icons"
+          >
+            <li
+              class="list-inline-item"
+            >
+              <i
+                class="fab fa-html5"
+              />
+            </li>
+            <li
+              class="list-inline-item"
+            >
+              <i
+                class="fab fa-css3-alt"
+              />
+            </li>
+            <li
+              class="list-inline-item"
+            >
+              <i
+                class="fab fa-bootstrap"
+              />
+            </li>
+            <li
+              class="list-inline-item"
+            >
+              <i
+                class="fab fa-markdown"
+              />
+            </li>
+            <li
+              class="list-inline-item"
+            >
+              <i
+                class="fab fa-ethereum"
+              />
+            </li>
+            <li
+              class="list-inline-item"
+            >
+              <i
+                class="fab fa-js-square"
+              />
+            </li>
+            <li
+              class="list-inline-item"
+            >
+              <i
+                class="fab fa-react"
+              />
+            </li>
+            <li
+              class="list-inline-item"
+            >
+              <i
+                class="fab fa-node-js"
+              />
+            </li>
+            <li
+              class="list-inline-item"
+            >
+              <i
+                class="fab fa-npm"
+              />
+            </li>
+            <li
+              class="list-inline-item"
+            >
+              <i
+                class="fab fa-git"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </div>
+</DocumentFragment>
+`;

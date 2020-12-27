@@ -44,7 +44,7 @@ function Resume() {
             method="get"
             target="_blank"
           >
-            <button type="submit">Download My Resume</button>
+            <button alt="Download My Resume" type="submit">Download My Resume</button>
           </form>
           <div className="CAcontainer">
             <div className="CodingActivity"></div>

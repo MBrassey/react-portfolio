@@ -1,0 +1,198 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Portfolio component matches snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="flex-row"
+    >
+      <div
+        class="project"
+      >
+        <img
+          alt="galler3"
+          class="project-bg"
+          src="galler3.png"
+        />
+        <div
+          class="project-text"
+        >
+          <h3>
+            <a
+              href="https://mbrassey.github.io/galler3"
+            >
+              galler3
+            </a>
+              
+            <a
+              href="https://github.com/MBrassey/galler3"
+            >
+              <i
+                class="fab fa-github"
+              />
+            </a>
+          </h3>
+          <p>
+            Single-page photography portfolio application that uses React state, props, Hooks, and reusable UI components
+          </p>
+        </div>
+      </div>
+      <div
+        class="project"
+      >
+        <img
+          alt="waviii"
+          class="project-bg"
+          src="waviii.png"
+        />
+        <div
+          class="project-text"
+        >
+          <h3>
+            <a
+              href="https://waviii.herokuapp.com/admin/Wallet"
+            >
+              waviii
+            </a>
+              
+            <a
+              href="https://github.com/MBrassey/waviii.io"
+            >
+              <i
+                class="fab fa-github"
+              />
+            </a>
+          </h3>
+          <p>
+            Web3 Ethereum Wallet & ERC-20 Token Swap React Components Inside Social Media Dapp Concept
+          </p>
+        </div>
+      </div>
+      <div
+        class="project"
+      >
+        <img
+          alt="TurqMelon"
+          class="project-bg"
+          src="TurqMelon.png"
+        />
+        <div
+          class="project-text"
+        >
+          <h3>
+            <a
+              href="https://github.com/MBrassey/TurquoiseMelon"
+            >
+              TurqMelon
+            </a>
+              
+            <a
+              href="https://github.com/MBrassey/TurquoiseMelon"
+            >
+              <i
+                class="fab fa-github"
+              />
+            </a>
+          </h3>
+          <p>
+            Image ranking & tipping platform written in ReactJS, powered by Solidity Smart Contracts & IPFS
+          </p>
+        </div>
+      </div>
+      <div
+        class="project"
+      >
+        <img
+          alt="WeatherDash"
+          class="project-bg"
+          src="WeatherDash.png"
+        />
+        <div
+          class="project-text"
+        >
+          <h3>
+            <a
+              href="https://mbrassey.github.io/OpenWeather-Dashboard"
+            >
+              WeatherDash
+            </a>
+              
+            <a
+              href="https://github.com/MBrassey/OpenWeather-Dashboard"
+            >
+              <i
+                class="fab fa-github"
+              />
+            </a>
+          </h3>
+          <p>
+            Weather dashboard concept using OpenWeather API, ipinfo.io API & jQuery/JS/HTML/CSS
+          </p>
+        </div>
+      </div>
+      <div
+        class="project"
+      >
+        <img
+          alt="ThoughtAPI"
+          class="project-bg"
+          src="ThoughtAPI.png"
+        />
+        <div
+          class="project-text"
+        >
+          <h3>
+            <a
+              href="https://thoughtstreamapi-mbrassey.herokuapp.com/api/users"
+            >
+              ThoughtAPI
+            </a>
+              
+            <a
+              href="https://github.com/MBrassey/ThoughtStreamAPI"
+            >
+              <i
+                class="fab fa-github"
+              />
+            </a>
+          </h3>
+          <p>
+            API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list
+          </p>
+        </div>
+      </div>
+      <div
+        class="project"
+      >
+        <img
+          alt="TheDevBlog"
+          class="project-bg"
+          src="TheDevBlog.png"
+        />
+        <div
+          class="project-text"
+        >
+          <h3>
+            <a
+              href="https://thedevblog-mbrassey.herokuapp.com"
+            >
+              TheDevBlog
+            </a>
+              
+            <a
+              href="https://github.com/MBrassey/TheDevBlog"
+            >
+              <i
+                class="fab fa-github"
+              />
+            </a>
+          </h3>
+          <p>
+            Full stack CMS type blog application utilizing ORM with Sequelize/MySQL and adhering to the Model-View-Controller paradigm
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

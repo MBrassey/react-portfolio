@@ -1,25 +1,19 @@
-import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { render, cleanup } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
 import React from 'react';
 
-import About from '..';
+import PageContent from '../../PageContent';
 
 afterEach(cleanup);
 
-describe('About component', () => {
+describe('Page component', () => {
   it('renders', () => {
-    render(<About />);
+    render(<PageContent />);
   });
 
   it('matches snapshot', () => {
-    const { asFragment } = render(<About />);
+    const { asFragment } = render(<PageContent />);
 
     expect(asFragment()).toMatchSnapshot();
   });
-
-  it('Profile image renders', () => {
-    render(<LazyLoadImage />);
-  });
-
 })
