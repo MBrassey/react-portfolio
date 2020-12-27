@@ -24,6 +24,7 @@ Developer portfolio application that uses React state, props, Hooks, and reusabl
 #### Usage
 
     npm run start
+    npm run test a (optional)
     browse: localhost:3001/
 
 <h6><p align="right">:cyclone: Click the image(s) below to view the live <a id="Screenshots" href="https://brassey.io/">webapplication</a></p></h6>
