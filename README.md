@@ -37,6 +37,9 @@ Developer portfolio application that uses React state, props, Hooks, and reusabl
 > Setup
 > [<img src="src/assets/cover/Setup.gif">](https://brassey.io/)
 
+> Testing with Jest
+> [<img src="src/assets/cover/Test.gif">](https://brassey.io/)
+
 #### Questions
 
 Contact me at [matt@brassey.io](mailto:matt@brassey.io) with any questions or comments.
