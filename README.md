@@ -9,7 +9,7 @@ Developer portfolio application that uses React state, props, Hooks, and reusabl
 - [x] [Create components](https://github.com/MBrassey/react-portfolio/issues/2)
 - [x] [Populate with my information & Stylize](https://github.com/MBrassey/react-portfolio/issues/3)
 - [x] [Resume page](https://github.com/MBrassey/react-portfolio/issues/4)
-- [x] [Deploy App & Create Readme](https://github.com/MBrassey/react-portfolio/issues/4)
+- [x] [Deploy App & Create Readme](https://github.com/MBrassey/react-portfolio/issues/5)
 - [x] [Unit Test](https://github.com/MBrassey/react-portfolio/issues/6)
 
 #### Requirements
