@@ -1,5 +1,5 @@
 ## react-portfolio
-Developer portfolio application that uses React state, props, Hooks, and reusable UI components. Third party libraries are imported for lazy loading, animation effects and style. Jest framework used to test components. View [brassey.io](https://brassey.io) or view the [decentralized version](https://mbrassey-portfolio.on.fleek.co/) of the app deployed to the Interplanetary FileSystem (IPFS). 
+Developer portfolio application that uses React state, props, Hooks, and reusable UI components. Third party libraries are imported for lazy loading, animation effects and style. Jest framework used to test components. View the application at [brassey.io](https://brassey.io) or check out the [decentralized version](https://mbrassey-portfolio.on.fleek.co/) deployed to the Interplanetary FileSystem (IPFS).
 
 [![licensebadge](https://img.shields.io/badge/license-CC0_1.0_Universal-blue)](https://github.com/MBrassey/react-portfolio/blob/main/LICENSE)
 [![time tracker](https://wakatime.com/badge/github/MBrassey/react-portfolio.svg?start=2020-12-21&end=2020-12-27)](https://wakatime.com/@532855a8-3081-4600-a53d-4262beb65d14/projects/gleqrtvsjb?start=2020-12-21&end=2020-12-27)
