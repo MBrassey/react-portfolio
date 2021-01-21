@@ -4,6 +4,34 @@ import Project from "../Project";
 function Portfolio() {
   const [projects] = useState([
     {
+      name: "BrewHound",
+      description:
+        "MERN stack Brewery Finder with GraphQL integration using multiple external API's",
+      link: "https://brewhound-2.herokuapp.com",
+      repo: "https://github.com/MBrassey/brewhound-2",
+    },
+    {
+      name: "TossUp",
+      description:
+        "MERN (MongoDB, Express.js, React, and Node.js) stack Brewery Finder with GraphQL",
+      link: "https://mbrassey-brewhound-2.herokuapp.com",
+      repo: "https://github.com/MBrassey/brewhound-2",
+    },
+    {
+      name: "DeepThoughts",
+      description:
+        "MERN (MongoDB, Express.js, React, and Node.js) stack social network ",
+      link: "https://mbrassey-deep-thoughts.herokuapp.com",
+      repo: "https://github.com/MBrassey/deep-thoughts",
+    },
+    {
+      name: "ALEXANDRIA",
+      description:
+        "MERN (MongoDB, Express.js, React, and Node.js) stack book search & save with GraphQL",
+      link: "https://mbrassey-alexandria.herokuapp.com",
+      repo: "https://github.com/MBrassey/alexandria",
+    },
+    {
       name: "galler3",
       description:
         "Single-page photography portfolio application that uses React state, props, Hooks, and reusable UI components",
