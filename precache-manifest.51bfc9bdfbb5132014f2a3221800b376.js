@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "11222a70bf0d86cf8d063d1e13caf85f",
+    "revision": "25081d81bd23ffecad369cfc2b0ed926",
     "url": "/index.html"
   },
   {
-    "revision": "e99258ed0fb94fbfe556",
-    "url": "/static/css/main.d15549f6.chunk.css"
+    "revision": "a471e81df28a5901c253",
+    "url": "/static/css/main.aff28a8f.chunk.css"
   },
   {
     "revision": "08ff8beb7ea6aedc82a5",
@@ -16,12 +16,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.306a889c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e99258ed0fb94fbfe556",
-    "url": "/static/js/main.15765bb1.chunk.js"
+    "revision": "a471e81df28a5901c253",
+    "url": "/static/js/main.784fac68.chunk.js"
   },
   {
     "revision": "dd8147bbe7734801bdde",
     "url": "/static/js/runtime-main.e312f208.js"
+  },
+  {
+    "revision": "4a6e5d15cfe10bbcb2eb2cbec647cf1b",
+    "url": "/static/media/ALEXANDRIA.4a6e5d15.png"
+  },
+  {
+    "revision": "eb1a0239ae5d42f1235e49984ea5662a",
+    "url": "/static/media/BrewHound.eb1a0239.png"
+  },
+  {
+    "revision": "9a6b7e7b3ee41cef74136cf6886cfb0e",
+    "url": "/static/media/DeepThoughts.9a6b7e7b.png"
   },
   {
     "revision": "f5c5e51066886fac1998482c38f53c87",
@@ -30,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f525659f34a3e9d95323c84f638c40bf",
     "url": "/static/media/ThoughtAPI.f525659f.png"
+  },
+  {
+    "revision": "3a0dfeddfd9acac63ce813a62e226d08",
+    "url": "/static/media/TossUp.3a0dfedd.png"
   },
   {
     "revision": "496571dc7e51a28501fa9a43ffae8b04",
