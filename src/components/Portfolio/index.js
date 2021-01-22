@@ -14,11 +14,11 @@ function Portfolio() {
       name: "TossUp",
       description:
         "MERN (MongoDB, Express.js, React, and Node.js) stack Brewery Finder with GraphQL",
-      link: "https://mbrassey-brewhound-2.herokuapp.com",
-      repo: "https://github.com/MBrassey/brewhound-2",
+      link: "https://mbrassey-toss-up.on.fleek.co",
+      repo: "https://github.com/MBrassey/toss-up",
     },
     {
-      name: "DeepThoughts",
+      name: "Deep",
       description:
         "MERN (MongoDB, Express.js, React, and Node.js) stack social network ",
       link: "https://mbrassey-deep-thoughts.herokuapp.com",
