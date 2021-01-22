@@ -12,7 +12,7 @@ function App() {
       name: "about me",
     },
     { name: "portfolio" },
-    { name: "contact" },
+    //{ name: "contact" },
     {
       name: "resume",
     },

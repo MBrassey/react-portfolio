@@ -98,7 +98,7 @@ exports[`Resume component matches snapshot 1`] = `
             <strong>
               University of Arizona
             </strong>
-             for completing a 24 Week Intensive Coding Bootcamp. I'm currently open to and actively seeking work in the areas of front/back end web & blockchain development. My resume is provided below, along with a chart depicting my past week's coding activity and badges representing my areas of proficiency. 
+             for completing a 24 Week Intensive Coding Bootcamp. I'm currently open to and actively seeking work in the areas of front/back end web & blockchain development. My resume is provided below, along with a chart depicting my past month's coding activity followed by badges representing my areas of proficiency. 
           </div>
           <form
             action="https://brassey.io/resume.pdf"

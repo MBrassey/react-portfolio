@@ -40,7 +40,7 @@ function Resume() {
             proficiency.{" "}
           </div>
           <form
-            action="https://brassey.io/resume.pdf"
+            action="https://docs.google.com/document/d/1T7uHv2RcH_wzERwJKoahqh9ODKdaJ48ci40nKEBViNY/"
             method="get"
             target="_blank"
           >
