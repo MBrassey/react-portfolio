@@ -89,18 +89,18 @@ function Portfolio() {
       repo: "https://github.com/MBrassey/waviii-token",
     },
     {
-      name: "TechNewz",
-      description:
-        "Full stack Hacker News type blog application utilizing ORM with Sequelize and adhering to the Model-View-Controller paradigm",
-      link: "https://technewz-mbrassey.herokuapp.com",
-      repo: "https://github.com/MBrassey/TechNewz",
-    },
-    {
       name: "UltraQueue",
       description:
         "Personal kanban style queue that saves tasks to localstorage, packaged by @electron-forge for Windows, Mac & Linux",
       link: "https://mbrassey.github.io/UltraQueue",
       repo: "https://github.com/MBrassey/UltraQueue",
+    },
+    {
+      name: "TechNewz",
+      description:
+        "Full stack Hacker News type blog application utilizing ORM with Sequelize and adhering to the Model-View-Controller paradigm",
+      link: "https://technewz-mbrassey.herokuapp.com",
+      repo: "https://github.com/MBrassey/TechNewz",
     },
     {
       name: "Ecommerce",
