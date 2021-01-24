@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "71eb38a022660595c68913e3b92babc0",
+    "revision": "fdb573884f0c5293d03234883799756f",
     "url": "/index.html"
   },
   {
-    "revision": "4496098b24fb3eeb44a3",
+    "revision": "4dcc130e5c6338d8c30e",
     "url": "/static/css/main.0201a20b.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.242bedf2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4496098b24fb3eeb44a3",
-    "url": "/static/js/main.daebed92.chunk.js"
+    "revision": "4dcc130e5c6338d8c30e",
+    "url": "/static/js/main.f0720dc6.chunk.js"
   },
   {
     "revision": "dd8147bbe7734801bdde",
@@ -40,8 +40,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Ecommerce.9f62b5f2.png"
   },
   {
-    "revision": "70fc59f2152ccf39ce86a6f1f4d8a387",
-    "url": "/static/media/GitQuery.70fc59f2.png"
+    "revision": "710255e79d2a6db38fda9f4a14572631",
+    "url": "/static/media/GitQuery.710255e7.png"
   },
   {
     "revision": "667befe2be8c5ea690aab84432cba54e",
@@ -56,8 +56,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/TechNewz.a5cd3ede.png"
   },
   {
-    "revision": "0d0df407ea0a3ad403e87b8b31f206f6",
-    "url": "/static/media/TheDevBlog.0d0df407.png"
+    "revision": "1b1a925ed7ff114bf2b22bc3f7207376",
+    "url": "/static/media/TheDevBlog.1b1a925e.png"
   },
   {
     "revision": "511aef0469556e473702300bcb6b9e3b",
@@ -92,8 +92,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/profile.605bd09e.jpg"
   },
   {
-    "revision": "37d9fc913140c0bb430e09bf1baeaa1c",
-    "url": "/static/media/waviii-token.37d9fc91.png"
+    "revision": "79ce7217b7f89a59a25445bacc064b53",
+    "url": "/static/media/waviii-token.79ce7217.png"
   },
   {
     "revision": "dc1c7f8483103bec922959ca5e652e99",
