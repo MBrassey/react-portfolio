@@ -36,7 +36,7 @@ function Resume() {
             Intensive Coding Bootcamp. I'm currently open to and actively seeking work
             in the areas of front/back end web & blockchain development. My
             resume is provided below, along with a chart depicting my past
-            week's coding activity and badges representing my areas of
+            month's coding activity and badges representing my areas of
             proficiency.{" "}
           </div>
           <form

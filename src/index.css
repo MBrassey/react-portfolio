@@ -164,6 +164,11 @@ img {
   max-width: 100%;
 }
 
+.image {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
 span[role="img"] {
   cursor: url(https://raw.githubusercontent.com/MBrassey/MediaStore/main/Images/cursor-hand.png),
     auto;

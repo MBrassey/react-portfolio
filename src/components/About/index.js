@@ -1,5 +1,7 @@
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import ProfilePicture from "../../assets/cover/profile.jpg";
+import TrufflePicture from "../../assets/cover/Truffle.gif";
+import RemixPicture from "../../assets/cover/Remix.gif";
 import FadeIn from "react-fade-in";
 import React from "react";
 
@@ -23,8 +25,9 @@ function About() {
               }}
             />
           </div>
-          <div className="about-text">
-            Welcome, I'm <strong>Matt Brassey</strong> - Full stack blockchain
+          <div className="about-text resume-text">
+            Welcome,
+            <br /> I'm <strong>Matt Brassey</strong> - Full stack blockchain
             developer with SysOps & DevOps background. Known among staff for
             strong wit and attention to detail no matter the complexity of the
             project or severity of it’s operations. Proven experience applying
@@ -36,14 +39,37 @@ function About() {
                 Certified Blockchain Architect
               </a>
             </strong>
-            credential from the Blockchain Council, as well as a <strong>Full Stack
-            Development Certification</strong> from the University of Arizona for
-            completing a 24 Week Coding Bootcamp. Intense interest in
-            distributed systems, decentralized finance and blockchain
-            technology. Keen technologist with an insatiable desire to learn,
-            build, improve and collaborate on world changing platforms and
-            applications.
+            credential from the Blockchain Council, as well as a{" "}
+            <strong>Full Stack Development Certification</strong> from the
+            University of Arizona for completing a 24 Week Coding Bootcamp.
+            Intense interest in distributed systems, decentralized finance and
+            blockchain technology. Keen technologist with an insatiable desire
+            to learn, build, improve and collaborate on world changing platforms
+            and applications.
           </div>
+        </div>
+        <div className="about-text resume-text">
+          My workflow when creating a decentralized application begins with
+          writing & deploying a solidity smart contract to a local blockchain
+          using truffle & ganache.
+          <LazyLoadImage
+            src={TrufflePicture}
+            alt="Truffle Commands"
+            className="image"
+          />
+          I unit test the contract using assertions in Javascript or the Jest
+          framework. Next, I model & wire the backend using Express, frontend
+          with React & Web3. I deploy the contract to an Ethereum testnet such
+          as Kovan, Ropsten or Rinkeby using the Remix IDE.
+          <LazyLoadImage
+            src={RemixPicture}
+            alt="Remix IDE"
+            className="image"
+          />
+          Finally, I deploy the smartcontract(s) to Ethereum Mainnet & webapp
+          assets to the InterPlanetary Filesystem (IPFS). I'm experienced in
+          registering mainnet contract sourcecode, abi's and contract profile to
+          Etherscan.
         </div>
       </section>
     </FadeIn>
