@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fdb573884f0c5293d03234883799756f",
+    "revision": "981a68f4625f3b3f1074928747d43bee",
     "url": "/index.html"
   },
   {
-    "revision": "4dcc130e5c6338d8c30e",
-    "url": "/static/css/main.0201a20b.chunk.css"
+    "revision": "001b6e1e1e8b42519442",
+    "url": "/static/css/main.956d5987.chunk.css"
   },
   {
-    "revision": "804eb1f8eb0b3fa0c24b",
-    "url": "/static/js/2.242bedf2.chunk.js"
+    "revision": "4973d62e4e839ffe8d1c",
+    "url": "/static/js/2.2d17bded.chunk.js"
   },
   {
     "revision": "cbe01fbbe035bf90d35a835621f136ef",
-    "url": "/static/js/2.242bedf2.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.2d17bded.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4dcc130e5c6338d8c30e",
-    "url": "/static/js/main.f0720dc6.chunk.js"
+    "revision": "001b6e1e1e8b42519442",
+    "url": "/static/js/main.098b6744.chunk.js"
   },
   {
     "revision": "dd8147bbe7734801bdde",
@@ -48,6 +48,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/PassGen.667befe2.png"
   },
   {
+    "revision": "140d397f7ea729c62ccfe4187e6ed3d1",
+    "url": "/static/media/Remix.140d397f.gif"
+  },
+  {
     "revision": "41e7f28561c5c4bec58ac21ef988f726",
     "url": "/static/media/Scheduler.41e7f285.png"
   },
@@ -66,6 +70,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "28e0f1b9ee55fdd811fa4ef7a76bffbc",
     "url": "/static/media/TossUp.28e0f1b9.png"
+  },
+  {
+    "revision": "d1e225d997d7f29f3884428bed07393c",
+    "url": "/static/media/Truffle.d1e225d9.gif"
   },
   {
     "revision": "496571dc7e51a28501fa9a43ffae8b04",
