@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.956d5987.chunk.css",
-    "main.js": "/static/js/main.098b6744.chunk.js",
-    "main.js.map": "/static/js/main.098b6744.chunk.js.map",
+    "main.js": "/static/js/main.c057e3bf.chunk.js",
+    "main.js.map": "/static/js/main.c057e3bf.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e312f208.js",
     "runtime-main.js.map": "/static/js/runtime-main.e312f208.js.map",
-    "static/js/2.2d17bded.chunk.js": "/static/js/2.2d17bded.chunk.js",
-    "static/js/2.2d17bded.chunk.js.map": "/static/js/2.2d17bded.chunk.js.map",
+    "static/js/2.e69672a9.chunk.js": "/static/js/2.e69672a9.chunk.js",
+    "static/js/2.e69672a9.chunk.js.map": "/static/js/2.e69672a9.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.49a598ff12c8d01ac278b9073009936b.js": "/precache-manifest.49a598ff12c8d01ac278b9073009936b.js",
+    "precache-manifest.45ea03eaf37947027c2b669d43c1e3ec.js": "/precache-manifest.45ea03eaf37947027c2b669d43c1e3ec.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.956d5987.chunk.css.map": "/static/css/main.956d5987.chunk.css.map",
-    "static/js/2.2d17bded.chunk.js.LICENSE.txt": "/static/js/2.2d17bded.chunk.js.LICENSE.txt",
+    "static/js/2.e69672a9.chunk.js.LICENSE.txt": "/static/js/2.e69672a9.chunk.js.LICENSE.txt",
     "static/media/ALEXANDRIA.png": "/static/media/ALEXANDRIA.4a6e5d15.png",
     "static/media/BrewHound.png": "/static/media/BrewHound.4541a369.png",
     "static/media/Deep.png": "/static/media/Deep.d45ad686.png",
@@ -31,13 +31,13 @@
     "static/media/WeatherDash.png": "/static/media/WeatherDash.c75e631c.png",
     "static/media/galler3.png": "/static/media/galler3.45fc2a59.png",
     "static/media/profile.jpg": "/static/media/profile.605bd09e.jpg",
-    "static/media/waviii-token.png": "/static/media/waviii-token.79ce7217.png",
-    "static/media/waviii.png": "/static/media/waviii.dc1c7f84.png"
+    "static/media/waviii-token.png": "/static/media/waviii-token.38d2b3f5.png",
+    "static/media/waviii.io.png": "/static/media/waviii.io.34d6477f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e312f208.js",
-    "static/js/2.2d17bded.chunk.js",
+    "static/js/2.e69672a9.chunk.js",
     "static/css/main.956d5987.chunk.css",
-    "static/js/main.098b6744.chunk.js"
+    "static/js/main.c057e3bf.chunk.js"
   ]
 }
