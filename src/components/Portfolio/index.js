@@ -4,11 +4,25 @@ import Project from "../Project";
 function Portfolio() {
   const [projects] = useState([
     {
+      name: "waviii.io",
+      description:
+        "Fully Decentralized ERC-20 Token, Wallet, Exchange & Price Chart - React, Web3js & RESTful API's ",
+      link: "https://waviii.herokuapp.com/admin/Wallet",
+      repo: "https://github.com/MBrassey/waviii.io",
+    },
+    {
       name: "BrewHound",
       description:
         "MERN stack Brewery Finder with GraphQL integration using multiple external API's",
       link: "https://brewhound-2.herokuapp.com",
       repo: "https://github.com/MBrassey/brewhound-2",
+    },
+    {
+      name: "ALEXANDRIA",
+      description:
+        "MERN (MongoDB, Express.js, React, and Node.js) stack book search & save with GraphQL",
+      link: "https://mbrassey-alexandria.herokuapp.com",
+      repo: "https://github.com/MBrassey/alexandria",
     },
     {
       name: "TossUp",
@@ -23,20 +37,6 @@ function Portfolio() {
         "MERN (MongoDB, Express.js, React, and Node.js) stack social network ",
       link: "https://mbrassey-deep-thoughts.herokuapp.com",
       repo: "https://github.com/MBrassey/deep-thoughts",
-    },
-    {
-      name: "ALEXANDRIA",
-      description:
-        "MERN (MongoDB, Express.js, React, and Node.js) stack book search & save with GraphQL",
-      link: "https://mbrassey-alexandria.herokuapp.com",
-      repo: "https://github.com/MBrassey/alexandria",
-    },
-    {
-      name: "waviii",
-      description:
-        "Web3 Ethereum Wallet & ERC-20 Token Swap React Components Inside Social Media Dapp Concept",
-      link: "https://waviii.herokuapp.com/admin/Wallet",
-      repo: "https://github.com/MBrassey/waviii.io",
     },
     {
       name: "ThoughtAPI",
@@ -83,7 +83,7 @@ function Portfolio() {
     {
       name: "waviii-token",
       description:
-        "Ethereum Mainnet ERC-20 Token, total supply 1,000 waviii. The token was built with Openzeppelin and deployed with Truffle.",
+        "Ethereum Mainnet ERC-20 Token, total supply 1 million waviii. The token was built with Openzeppelin and deployed with Truffle.",
       link:
         "https://etherscan.io/token/0xBA00868912Af1a409F11E9c2B5d3a9376Cb3C2E2",
       repo: "https://github.com/MBrassey/waviii-token",

@@ -24,32 +24,54 @@ function Resume() {
                 Certified Blockchain Architect
               </a>
             </strong>{" "}
-            credential from the{" "}
+            credential from the <strong>Blockchain Council</strong>, as well as
+            a{" "}
             <strong>
-              <a href="https://www.blockchain-council.org">
-                Blockchain Council
-              </a>
+              {" "}
+              <strong>
+                <a href="https://raw.githubusercontent.com/MBrassey/MediaStore/main/Images/UofA_Graduate.png">
+                  Full Stack Development Certification
+                </a>
+              </strong>{" "}
             </strong>
-            , as well as a{" "}
-            <strong>Full Stack Development Certification </strong>
-            from the <strong>University of Arizona</strong> for completing a 24 Week
-            Intensive Coding Bootcamp. I'm currently open to and actively seeking work
-            in the areas of front/back end web & blockchain development. My
-            resume is provided below, along with a chart depicting my past
-            month's coding activity and badges representing my areas of
-            proficiency.{" "}
+            from the <strong>University of Arizona</strong> for completing a 24
+            Week Intensive Coding Bootcamp. I'm currently open to and actively
+            seeking work in the areas of front/back end web & blockchain
+            development. My resume is provided below, along with a chart
+            depicting my past month's coding activity and badges representing my
+            areas of proficiency.{" "}
           </div>
           <form
             action="https://docs.google.com/document/d/1T7uHv2RcH_wzERwJKoahqh9ODKdaJ48ci40nKEBViNY/"
             method="get"
             target="_blank"
           >
-            <button alt="Download My Resume" type="submit">Download My Resume</button>
-          </form>
+            <button alt="Download My Resume" type="submit">
+              Download My Resume
+            </button>
+          </form>{" "}
+          <br />
+          <div className="resume-text">
+            "Matt is a hard worker and was able to produce great code in a
+            neat and timely manner. His contributions to our projects were
+            beyond valuable, he shows a great understanding of the technologies
+            we used within our full stack web app." -{" "}
+            <a href="https://www.linkedin.com/in/matthew-ondrovic-a43826131/">
+              Ryan Brown
+            </a>
+          </div>
+          <br />
+          <div className="resume-text">
+            "It was awesome to watch the project come together thanks to Matt's
+            ability to translate wireframed concepts in to reality, and deep
+            knowledge of the technologies our app is built upon." -{" "}
+            <a href="https://www.linkedin.com/in/ryan-brown-83760479/">
+              Matthew Ondrovic
+            </a>
+          </div>
           <div className="CAcontainer">
             <div className="CodingActivity"></div>
           </div>
-
           <ul className="dev-icons">
             <li className="list-inline-item">
               <i className="fab fa-html5"></i>
