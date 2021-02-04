@@ -56,7 +56,7 @@ function Resume() {
             neat and timely manner. His contributions to our projects were
             beyond valuable, he shows a great understanding of the technologies
             we used within our full stack web app." -{" "}
-            <a href="https://www.linkedin.com/in/matthew-ondrovic-a43826131/">
+            <a href="https://www.linkedin.com/in/ryan-brown-83760479/">
               Ryan Brown
             </a>
           </div>
@@ -65,7 +65,7 @@ function Resume() {
             "It was awesome to watch the project come together thanks to Matt's
             ability to translate wireframed concepts in to reality, and deep
             knowledge of the technologies our app is built upon." -{" "}
-            <a href="https://www.linkedin.com/in/ryan-brown-83760479/">
+            <a href="https://www.linkedin.com/in/matthew-ondrovic-a43826131/">
               Matthew Ondrovic
             </a>
           </div>
