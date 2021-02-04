@@ -33,7 +33,7 @@ function About() {
             project or severity of it’s operations. Proven experience applying
             continuous integration within small group and large, corporate team
             settings. Strong ability to modularize large, complex project
-            objectives into concise and manageable parts. recently obtained the{" "}
+            objectives into concise and manageable parts. Recently obtained the{" "}
             <strong>
               <a href="https://www.credential.net/44a73119-b770-4a10-901c-7aa6508d5c65#gs.qu4xf9">
                 Certified Blockchain Architect
