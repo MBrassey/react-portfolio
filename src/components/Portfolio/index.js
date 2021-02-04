@@ -39,11 +39,12 @@ function Portfolio() {
       repo: "https://github.com/MBrassey/deep-thoughts",
     },
     {
-      name: "ThoughtAPI",
+      name: "waviii-token",
       description:
-        "API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list",
-      link: "https://thoughtstreamapi-mbrassey.herokuapp.com/api/users",
-      repo: "https://github.com/MBrassey/ThoughtStreamAPI",
+        "Ethereum Mainnet ERC-20 Token, total supply 1 million waviii. The token was built with Openzeppelin and deployed with Truffle.",
+      link:
+        "https://etherscan.io/token/0xBA00868912Af1a409F11E9c2B5d3a9376Cb3C2E2",
+      repo: "https://github.com/MBrassey/waviii-token",
     },
     {
       name: "WeatherDash",
@@ -81,12 +82,11 @@ function Portfolio() {
       repo: "https://github.com/MBrassey/galler3",
     },
     {
-      name: "waviii-token",
+      name: "ThoughtAPI",
       description:
-        "Ethereum Mainnet ERC-20 Token, total supply 1 million waviii. The token was built with Openzeppelin and deployed with Truffle.",
-      link:
-        "https://etherscan.io/token/0xBA00868912Af1a409F11E9c2B5d3a9376Cb3C2E2",
-      repo: "https://github.com/MBrassey/waviii-token",
+        "API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list",
+      link: "https://thoughtstreamapi-mbrassey.herokuapp.com/api/users",
+      repo: "https://github.com/MBrassey/ThoughtStreamAPI",
     },
     {
       name: "UltraQueue",

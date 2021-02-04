@@ -38,7 +38,7 @@ function About() {
               <a href="https://www.credential.net/44a73119-b770-4a10-901c-7aa6508d5c65#gs.qu4xf9">
                 Certified Blockchain Architect
               </a>
-            </strong>
+            </strong>{" "}
             credential from the Blockchain Council, as well as a{" "}
             <strong>Full Stack Development Certification</strong> from the
             University of Arizona for completing a 24 Week Coding Bootcamp.
@@ -76,7 +76,7 @@ function About() {
             Below is my ERC-20 Token, Token Wallet & Exchange, waviii.io. I
             deployed waviii-token to Ethereum Mainnet, it has a real value and
             you can exchange ETH and waviii back and forth. The total supply is
-            1,000 tokens, most of which reside on my token exchange contract
+            1 million tokens, most of which reside on my token exchange contract
             listening for trades at any time. I used web3 to provide MetaMask or
             access to the token and exchange smartcontracts.
             <a href="https://github.com/MBrassey/waviii.io/">
