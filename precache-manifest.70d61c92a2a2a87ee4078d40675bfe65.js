@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9c853fe8f18a6bfc08e708d0bc5d74c4",
+    "revision": "571ed3b3d1b25c6487c9b49f5f086183",
     "url": "/index.html"
   },
   {
-    "revision": "82290cbcd65a369c8519",
+    "revision": "86c66a9427f5f5dceb43",
     "url": "/static/css/main.956d5987.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.e69672a9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "82290cbcd65a369c8519",
-    "url": "/static/js/main.a6745b13.chunk.js"
+    "revision": "86c66a9427f5f5dceb43",
+    "url": "/static/js/main.517cbff7.chunk.js"
   },
   {
     "revision": "dd8147bbe7734801bdde",
@@ -72,8 +72,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/TossUp.28e0f1b9.png"
   },
   {
-    "revision": "d1e225d997d7f29f3884428bed07393c",
-    "url": "/static/media/Truffle.d1e225d9.gif"
+    "revision": "2ad3fa1f79a89afbdf3995bae6b93f08",
+    "url": "/static/media/Truffle.2ad3fa1f.gif"
   },
   {
     "revision": "496571dc7e51a28501fa9a43ffae8b04",
