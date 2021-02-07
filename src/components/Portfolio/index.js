@@ -7,7 +7,7 @@ function Portfolio() {
       name: "waviii.io",
       description:
         "Fully Decentralized ERC-20 Token, Wallet, Exchange & Price Chart - React, Web3js & RESTful API's ",
-      link: "https://waviii.herokuapp.com/admin/Wallet",
+      link: "https://waviii.io",
       repo: "https://github.com/MBrassey/waviii.io",
     },
     {
