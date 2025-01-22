@@ -132,7 +132,7 @@ function About() {
             deployed waviii-token to Ethereum Mainnet, it has a real value and
             you can exchange ETH and waviii back and forth. The total supply is
             1 million tokens, most of which reside on my token exchange contract
-            listening for trades at any time. I used web3 to provide MetaMask or
+            listening for trades at any time. I used web3 to provide MetaMask
             access to the token and exchange smartcontracts.
             <a
   href="https://github.com/MBrassey/waviii.io/"

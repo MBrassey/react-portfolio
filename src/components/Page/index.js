@@ -1,7 +1,7 @@
 import PageContent from "../PageContent";
 import Portfolio from "../Portfolio";
 import { motion } from "framer-motion";
-// import Contact from "../Contact";
+import Blog from "../Blog";
 import Resume from "../Resume";
 import About from "../About";
 import React from "react";
@@ -21,8 +21,8 @@ function Page({ currentPage }) {
             <Portfolio />
           </motion.div>
         );
-      // case "contact":
-      //   return <Contact />;
+      case "Blog":
+      return <Blog />;
       case "resume":
         return <Resume />;
       default:
