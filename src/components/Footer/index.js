@@ -14,6 +14,10 @@ function Footer() {
       name: "far fa-envelope",
       link: "mailto:matt@brassey.io",
     },
+    {
+      name: "fas fa-file-alt",
+      link: "https://docs.google.com/document/d/1T7uHv2RcH_wzERwJKoahqh9ODKdaJ48ci40nKEBViNY/",
+    },
   ];
 
   return (

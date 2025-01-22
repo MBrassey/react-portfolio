@@ -4,16 +4,37 @@ main {
   padding: 50px 30px;
 }
 :root {
-  --primary: #111d2f;
-  --secondary: #58a6ff;
-  --tertiary: #2d93ca;
-  --light: #c9d1d9;
-  --dark: #5c646c;
-  --darker: #090d12;
-  --alpha: #0d1117;
+  --primary: #0f0f0f;
+  --secondary: #4a8ec3;
+  --tertiary: #4a8ec3;
+  --light: #e0e0e0;
+  --dark: #a0a0a0;
+  --darker: rgba(41, 41, 41);
+  --alpha: rgba(0, 0, 0, 0.95);
   --spacing-one: calc(1rem * 0.5);
-  --spacing-two: calc(1rem);
+  --spacing-two: calc(1.2rem);
   --spacing-five: calc(2.5rem);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--dark) var(--darker);
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--dark); 
+  border-radius: 5px; 
+  border: 2px solid var(--alpha); 
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--alpha);
+  border-radius: 5px;
 }
 
 * {
@@ -22,8 +43,6 @@ main {
 
 html,
 body {
-  cursor: url(https://raw.githubusercontent.com/MBrassey/MediaStore/main/Images/cursor-auto.png),
-    auto;
   min-height: 100%;
 }
 
@@ -39,8 +58,6 @@ body {
 }
 i {
   text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-  cursor: url(https://raw.githubusercontent.com/MBrassey/MediaStore/main/Images/cursor-hand.png),
-    auto;
 }
 
 h1,
@@ -90,14 +107,13 @@ p {
 }
 
 a {
-  color: var(--light);
+  color: var(--secondary);
+  transition: all 0.3s ease-in-out;
   text-decoration: none;
   opacity: 0.5;
 }
 
 a:hover {
-  cursor: url(https://raw.githubusercontent.com/MBrassey/MediaStore/main/Images/cursor-hand.png),
-    auto;
   opacity: 1;
   transition: all 0.3s ease-in-out;
 }
@@ -136,12 +152,10 @@ button {
   font-size: 1rem;
   font-weight: 600;
   text-decoration: none;
-  border-radius: 0.5rem;
+  border-radius: 0.3rem;
   border: none;
-  color: var(--secondary);
+  color: var(--primary);
   outline: none;
-  cursor: url(https://raw.githubusercontent.com/MBrassey/MediaStore/main/Images/cursor-hand.png),
-    auto;
   margin-top: 33px;
   background-color: var(--dark);
   transition: all 0.3s ease-in-out;
@@ -152,12 +166,21 @@ button {
 
 button:hover {
   opacity: 1;
+  cursor: pointer;
 }
 
 button[disabled] {
-  cursor: url(https://raw.githubusercontent.com/MBrassey/MediaStore/main/Images/cursor-hand.png),
-    auto;
   opacity: 0.8;
+}
+
+.data-point {
+  color: #415a74;
+  transition: color 0.3s ease;
+  cursor: default;
+}
+
+.data-point:hover {
+  color: var(--secondary);
 }
 
 img {
@@ -167,11 +190,6 @@ img {
 .image {
   padding-top: 12px;
   padding-bottom: 12px;
-}
-
-span[role="img"] {
-  cursor: url(https://raw.githubusercontent.com/MBrassey/MediaStore/main/Images/cursor-hand.png),
-    auto;
 }
 
 form {
@@ -189,7 +207,7 @@ li {
 .about-text {
   background-color: var(--darker);
   font-family: "Aldrich", sans-serif;
-  border-radius: 2%;
+  border-radius: 1%;
   box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.7);
   padding: 22px;
 }
@@ -198,7 +216,7 @@ li {
   transition: all 0.5s ease-in-out;
   background-color: var(--darker);
   font-family: "Aldrich", sans-serif;
-  border-radius: 2%;
+  border-radius: 1%;
   box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.7);
   padding: 22px;
   width: 850px;
@@ -209,17 +227,24 @@ nav {
   font-family: "Orbitron", sans-serif;
   font-size: 1.5rem;
   margin-top: 0%;
+  margin-bottom: 0%;
 }
 
 nav a:hover {
   border-bottom: 18px solid var(--secondary);
+  cursor: pointer; 
 }
 
 nav li {
-  cursor: url(https://raw.githubusercontent.com/MBrassey/MediaStore/main/Images/cursor-hand.png),
-    auto;
   text-shadow: 2px 2px 10px var(--alpha);
   margin: 0 50px;
+  color: var(--light);
+  transition: all 0.3s ease-in-out;
+}
+
+nav li:hover {
+  color: #4a8ec3;
+  cursor: pointer; 
 }
 
 nav ul {
@@ -232,8 +257,6 @@ nav ul {
 
 .navActive {
   color: var(--secondary);
-  cursor: url(https://raw.githubusercontent.com/MBrassey/MediaStore/main/Images/cursor-hand.png),
-    auto;
   transition: all 0.5s ease-in-out;
   text-shadow: 3px 3px 7px var(--alpha);
 }
@@ -268,7 +291,7 @@ footer a:hover {
 }
 
 textarea {
-  border-radius: 2%;
+  border-radius: 1%;
   width: 100%;
   height: 200px;
   border: 2px solid var(--primary);
@@ -294,7 +317,7 @@ input {
   border: 1px solid var(--dark);
   box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.7);
   outline: none;
-  border-radius: 2%;
+  border-radius: 1%;
   transition: box-shadow 0.2s;
   background-color: var(--dark);
 }
@@ -318,7 +341,7 @@ input:focus {
 }
 
 .container {
-  width: 85%;
+  width: 100%;
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
@@ -453,29 +476,56 @@ input:focus {
 
 .scramble {
   width: 455px;
+  color: var(--secondary);
 }
 
 .profileImg {
   text-align: center;
   height: 240px;
   width: 240px;
+  margin-top: 0;
+  transition: filter 0.2s ease-in-out;
+}
+
+.profileImg:hover {
+  filter: brightness(1.1);
 }
 
 .CAcontainer {
   margin-top: 40px;
   overflow: hidden;
   padding-top: -40px;
-  border: 3px solid var(--primary);
   width: 850px;
-  height: 600px;
+  height: 630px;
   transition: all 0.5s ease-in-out;
+  position: relative;
 }
 
 .CodingActivity {
-  background-image: url("https://wakatime.com/share/@532855a8-3081-4600-a53d-4262beb65d14/c677e9c7-0d49-420a-8c6d-2c7c50af9219.svg");
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  background-image: url(""); 
+  opacity: 0; 
+  transition: opacity 0.99s ease-in-out;
+}
+
+.CodingActivity.visible {
+  background-image: url("https://wakatime.com/share/@532855a8-3081-4600-a53d-4262beb65d14/c677e9c7-0d49-420a-8c6d-2c7c50af9219.svg");
+  opacity: 1;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 10px;
+  right: 10px; 
+  color: var(--secondary); 
+  font-size: 1.5rem; 
+  font-weight: bold; 
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7); 
+  z-index: 2; 
+  font-family: "Orbitron", sans-serif;
 }
 
 .dev-icons li {
@@ -488,8 +538,11 @@ input:focus {
 .dev-icons {
   margin-top: 28px;
   color: var(--Stone);
-  padding-left: 0.7vw;
-  font-size: 70px;
+  font-size: 60px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
 }
 
 .dev-icons a {
@@ -718,8 +771,6 @@ input:focus {
   }
 
   nav li {
-    cursor: url(https://raw.githubusercontent.com/MBrassey/MediaStore/main/Images/cursor-hand.png),
-      auto;
     text-shadow: 2px 2px 10px var(--alpha);
     margin: 0 50px;
   }
@@ -734,8 +785,6 @@ input:focus {
 
   .navActive {
     color: var(--secondary);
-    cursor: url(https://raw.githubusercontent.com/MBrassey/MediaStore/main/Images/cursor-hand.png),
-      auto;
     transition: all 0.5s ease-in-out;
     text-shadow: 3px 3px 7px var(--alpha);
   }
@@ -787,8 +836,6 @@ input:focus {
   }
 
   nav li {
-    cursor: url(https://raw.githubusercontent.com/MBrassey/MediaStore/main/Images/cursor-hand.png),
-      auto;
     text-shadow: 2px 2px 10px var(--alpha);
     margin: 0 50px;
   }
@@ -803,23 +850,23 @@ input:focus {
 
   .navActive {
     color: var(--secondary);
-    cursor: url(https://raw.githubusercontent.com/MBrassey/MediaStore/main/Images/cursor-hand.png),
-      auto;
     transition: all 0.5s ease-in-out;
     text-shadow: 3px 3px 7px var(--alpha);
   }
 
   .scramble {
     width: 455px;
+    color: var(--secondary);
   }
 
   .contact {
     width: 1400px;
+    padding-top: 10px;
   }
 
   .CAcontainer {
     width: 630px;
-    height: 445px;
+    height: 475px;
   }
 
   .dev-icons {
@@ -829,7 +876,7 @@ input:focus {
   }
 
   .resume-text {
-    width: 630px;
+    width: 100%;
   }
 
   .project-text p {
@@ -909,7 +956,7 @@ input:focus {
 
   .CAcontainer {
     width: 465px;
-    height: 328px;
+    height: 358px;
   }
 
   .dev-icons {
@@ -919,7 +966,7 @@ input:focus {
   }
 
   .resume-text {
-    width: 465px;
+    width: 100%;
   }
 
   .project-text p {
@@ -997,7 +1044,7 @@ input:focus {
 
   .CAcontainer {
     width: 315px;
-    height: 222px;
+    height: 242px;
   }
 
   .dev-icons li {
@@ -1011,7 +1058,7 @@ input:focus {
   }
 
   .resume-text {
-    width: 315px;
+    width: 100%;
   }
 
   .project-text p {
@@ -1047,6 +1094,10 @@ input:focus {
     z-index: 2;
   }
 
+  .resume-text {
+    width: 100%;
+  }
+
   nav {
     text-align: right;
     font-size: 40px;
@@ -1067,15 +1118,15 @@ input:focus {
 
   .CAcontainer {
     width: 272px;
-    height: 192px;
+    height: 202px;
   }
 
   .dev-icons li {
-    margin-right: 6px;
+    margin-right: 3px;
   }
 
   .resume-text {
-    width: 275px;
+    width: 100%;
   }
 
   .dev-icons {
@@ -1103,6 +1154,11 @@ input:focus {
   .project-text h3 {
     font-size: .8em;
   }
+
+  .resume-text {
+    width: 100%;
+  }
+
 }
 
 @media (max-width: 350px) {

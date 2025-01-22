@@ -133,7 +133,7 @@ function Portfolio() {
   ]);
 
   return (
-    <div>
+    <div><br />
       <div className="flex-row">
         {projects.map((project, idx) => (
           <Project project={project} key={"project" + idx} />

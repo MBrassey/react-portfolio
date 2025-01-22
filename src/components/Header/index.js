@@ -1,29 +1,21 @@
-import TextScramble from "@twistezo/react-text-scramble";
-import FadeIn from "react-fade-in";
+import { motion } from "framer-motion";
 import React from "react";
 import "./index.scss";
 
-const texts = [
-  "Matt Brassey",
-  "Software Developer",
-  "matt@brassey.io"
-];
-
 function Header(props) {
   return (
-    <FadeIn>
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.5 }}
+    >
       <header className="flex-row space-between px-1">
         <div className="scramble">
-          <TextScramble
-            texts={texts}
-            letterSpeed={5}
-            nextLetterSpeed={100}
-            pauseTime={2200}
-          />
+          Matt Brassey
         </div>
         {props.children}
       </header>
-    </FadeIn>
+    </motion.div>
   );
 }
 
