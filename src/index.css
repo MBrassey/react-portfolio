@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&display=swap');
+
 main {
   margin: 0 auto;
   max-width: 90%;
@@ -49,7 +51,7 @@ body {
 body {
   margin: 0;
   padding: 0;
-  font-weight: 600;
+  font-weight: 550;
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: 0.1em;
@@ -66,7 +68,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Orbitron", sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;
@@ -101,9 +103,11 @@ h6 {
 }
 
 p {
-  font-size: 1.1rem;
-  margin: 20px 0;
-  line-height: 2rem;
+  font-family: "Inter", sans-serif;
+  font-size: 1em; 
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--dark);
 }
 
 a {
@@ -200,31 +204,52 @@ label {
   margin-right: 10px;
 }
 
-li {
+.resume-text li, .blog-text li {
   list-style: none;
+  position: relative;
+  padding-left: 20px;
 }
 
-.about-text {
+.resume-text li::before, .blog-text li::before {
+  content: "•"; 
+  position: absolute;
+  left: 0;
+  top: 6%;
+  color: var(--secondary); 
+  font-size: 1.2em; 
+  line-height: 1; 
+}
+
+.navbar li {
+  list-style: none;
+  position: static;
+  padding-left: 0;
+}
+
+.navbar li::before {
+  content: none;
+}
+
+.about-text,
+.resume-text {
   background-color: var(--darker);
-  font-family: "Aldrich", sans-serif;
-  border-radius: 1%;
+  font-family: "Inter", sans-serif;
   box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.7);
   padding: 22px;
+  font-size: 1em;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-weight: 300;
 }
 
 .resume-text {
   transition: all 0.5s ease-in-out;
-  background-color: var(--darker);
-  font-family: "Aldrich", sans-serif;
-  border-radius: 1%;
-  box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.7);
-  padding: 22px;
   width: 850px;
 }
 
 nav {
   position: relative;
-  font-family: "Orbitron", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 1.5rem;
   margin-top: 0%;
   margin-bottom: 0%;
@@ -301,7 +326,7 @@ textarea {
 }
 
 textarea:focus {
-  font-family: "Aldrich", sans-serif;
+  font-family: "Inter", sans-serif;
   color: var(--darker);
   border: 1px solid var(--secondary);
   box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5);
@@ -329,7 +354,7 @@ input:focus {
 }
 
 .contact {
-  font-family: "Aldrich", sans-serif;
+  font-family: "Inter", sans-serif;
   color: var(--light);
   padding-top: 30px;
   width: 1700px;
@@ -434,7 +459,7 @@ input:focus {
 }
 
 .project-text {
-  font-family: "Aldrich", sans-serif;
+  font-family: "Inter", sans-serif;
   color: var(--secondary);
   position: absolute;
   top: 0px;
@@ -527,7 +552,7 @@ input:focus {
   color: var(--light);
   padding: 20px 30px;
   box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.7);
-  font-family: "Aldrich", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .blog-title {
@@ -560,6 +585,7 @@ input:focus {
   opacity: 1; 
   transition: opacity 0.5s ease-in-out;
   max-width: 850px;
+  display: none;
 }
 
 .overlay-text {
@@ -567,11 +593,11 @@ input:focus {
   top: 10px;
   right: 10px; 
   color: var(--secondary); 
-  font-size: 1.5rem; 
+  font-size: 1.3rem; 
   font-weight: bold; 
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7); 
   z-index: 2; 
-  font-family: "Orbitron", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .dev-icons li {
@@ -812,7 +838,7 @@ input:focus {
   }
   nav {
     position: relative;
-    font-family: "Orbitron", sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 1.2rem;
     margin-top: 0%;
   }
@@ -877,8 +903,8 @@ input:focus {
 
   nav {
     position: relative;
-    font-family: "Orbitron", sans-serif;
-    font-size: 1.5rem;
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
     margin-top: 0%;
   }
 
@@ -927,7 +953,7 @@ input:focus {
   }
 
   .project-text p {
-    line-height: 40px;
+    line-height: 1em;
     font-size: 1.6em;
   }
 
