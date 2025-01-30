@@ -8,10 +8,11 @@ import waviiiPicture from "../../assets/projects/waviii.io.png";
 import getAlgoBlockNumber from "../helpers/algoBlockNumber";
 import getEthPrice from "../helpers/ethPrice";
 import getHbarBalance from "../helpers/hbarBalance";
-import getUniswapData from "../helpers/uniswapData";
+import ERC721Info from '../helpers/ERC721Info';
 
 function About() {
   const [isVisible, setIsVisible] = useState(false);
+  const [loading, setLoading] = useState(false); // Added loading state
   const profileImgRef = useRef(null);
 
   useEffect(() => {
@@ -21,7 +22,7 @@ function About() {
           setIsVisible(true);
         }
       },
-      { threshold: 0.1 } // Trigger when 10% of the image is visible
+      { threshold: 0.1 }
     );
 
     if (profileImgRef.current) {
@@ -45,20 +46,29 @@ function About() {
         <div className="my-2">
           <div className="my-5 profileImg" ref={profileImgRef}>
             {isVisible && (
-              <LazyLoadImage
-                src={ProfilePicture}
-                alt="Matt's Profile Picture"
-                style={{
-                  borderRadius: "3%",
-                  overflow: "visible",
-                  boxShadow: "0 12px 24px 0 rgba(0, 0, 0, 0.7)",
-                  height: "100%",
-                  width: "100%",
-                  marginTop: "9px",
-                  border: "solid 3px black",
-                  transition: "opacity 0.5s ease-in-out",
-                }}
-              />
+              <>
+                {loading && (
+                  <div className="spinner-container">
+                    <div className="spinner"></div>
+                  </div>
+                )}
+                <LazyLoadImage
+                  src={ProfilePicture}
+                  alt="Matt's Profile Picture"
+                  style={{
+                    borderRadius: ".2%",
+                    overflow: "visible",
+                    boxShadow: "0 12px 24px 0 rgba(0, 0, 0, 0.7)",
+                    height: "100%",
+                    width: "100%",
+                    marginTop: "9px",
+                    transition: "opacity 0.5s ease-in-out",
+                    display: loading ? "none" : "block",
+                  }}
+                  afterLoad={() => setLoading(false)}
+                  beforeLoad={() => setLoading(true)}
+                />
+              </>
             )}
           </div>
           <div className="about-text resume-text">
@@ -92,20 +102,45 @@ function About() {
           <br />
 
           <div className="about-text resume-text">
-  I possess extensive expertise in integrating third-party APIs and blockchain nodes to deliver accurate, real-time data critical for various applications. 
+          I have extensive experience integrating third-party APIs and blockchain nodes to provide accurate, real-time data essential for various applications.
   For instance, the latest Algorand block number is <strong className="data-point">{getAlgoBlockNumber()}</strong>, 
   the current Ether price is <strong className="data-point">${getEthPrice()}</strong>, 
-  and the live Hedera balance for account <strong>0.0.6287097</strong> is <strong className="data-point">{getHbarBalance()} HBAR</strong>. 
+  and the live Hedera balance for account <strong>0.0.6287097</strong> is <strong className="data-point">{getHbarBalance()} HBAR</strong>.
   <br /><br />
-  I've implemented integrations to fetch and display real-time blockchain contract data, such as live ARB/ETH swap events from Uniswap: 
-  <br /><br />
-  <strong className="data-point">{getUniswapData()}</strong>
-</div>
+  The following table demonstrates my possession of a DAPPU token, a rare NFT awarded for earning the Blockchain Developer 
+  Certification through Dapp University. You can also search any other Ethereum&nbsp;
+  <a
+    href="https://etherscan.io/token/0x476edA02BF0C35603fD6E0306cf85381029F90F1#balances"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="etherscan-link"
+  >
+  address
+  </a> 
+  &nbsp;and press "Enter" to see if it holds a DAPPU token.
+
+<br /><br />
+  <ERC721Info />
+ </div>
 <br />
 
+<div className="about-text resume-text">
+One of my areas of focus is on creating unified data formats to simplify blockchain integration across 
+  multiple protocols. Interacting directly with blockchain nodes typically involves using JSON-RPC APIs for querying 
+  data, broadcasting transactions, and interacting with smart contracts. Services like QuickNode and RapidAPI provide 
+  HTTP-based and GraphQL APIs, while providers such as Alchemy and Infura, designed for use with libraries like web3.js 
+  and ethers.js, offer JSON-RPC and WebSocket endpoints, each presenting different integration methods. Even within the 
+  same provider, API implementations often vary between protocols. While EVM-compatible chains and Layer 2s may share 
+  similar APIs, non-EVM-compatible or unique blockchains frequently require entirely distinct approaches. 
+  <br /><br />
+  To address these challenges, I developed a unified blockchain gateway built with a custom OpenAPI Specification and 
+  microservices that distill similarities into a consistent and reliable format while reconciling differences in output data across providers and 
+  protocols.
+</div>
+<br />
           <div className="about-text resume-text">
-            My workflow when creating a decentralized application begins with
-            writing & deploying a solidity smart contract to a local blockchain
+            I've developed a few dApps on Ethereum Mainnet & Testnet. My workflow when creating a decentralized application begins with
+            writing and deploying a solidity smart contract to a local blockchain
             using truffle & ganache.
             <LazyLoadImage
               src={TrufflePicture}
@@ -113,7 +148,7 @@ function About() {
               className="image"
             />
             I unit test the contract using assertions in Javascript or the Jest
-            framework. Next, I model & wire the backend using Express, frontend
+            framework. Next, I model and wire the backend using Express, frontend
             with React & Web3. I deploy the contract to an Ethereum testnet such
             as Kovan, Ropsten or Rinkeby using the Remix IDE.
             <LazyLoadImage

@@ -13,16 +13,22 @@ function Portfolio() {
     {
       name: "TossUp",
       description:
-        "Fully decentralized betting platform using Chainlink randomness, Ethereum Smartcontracts, IPFS & React frontend",
+        "Fully decentralized betting platform using Chainlink's Verifiable Randomness, Ethereum Smartcontracts, IPFS & React",
       link: "https://mbrassey-toss-up.on.fleek.co",
       repo: "https://github.com/MBrassey/toss-up",
+    },
+    {
+      name: "Audius",
+      description:
+        "Node operator for the decentralized music platform Audius, managing 17 nodes and earning over 13,000 AUDIO tokens weekly by hosting music, images, and media discovery on its Solana-based sidechain.",
+      link: "https://dashboard-audius-org.ipns.dweb.link/#/nodes/operator/0x68f656d19AC6d14dF209B1dd6E543b2E81d53D7B",
+      repo: "https://github.com/AudiusProject",
     },
     {
       name: "waviii-token",
       description:
         "Ethereum Mainnet ERC-20 Token, total supply 1 million waviii. The token was built with Openzeppelin and deployed with Truffle.",
-      link:
-        "https://etherscan.io/token/0xBA00868912Af1a409F11E9c2B5d3a9376Cb3C2E2",
+      link: "https://etherscan.io/token/0xBA00868912Af1a409F11E9c2B5d3a9376Cb3C2E2",
       repo: "https://github.com/MBrassey/waviii-token",
     },
     {

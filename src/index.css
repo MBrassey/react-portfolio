@@ -20,7 +20,7 @@ main {
 
 * {
   scrollbar-width: thin;
-  scrollbar-color: var(--dark) var(--darker);
+  scrollbar-color: var(--dark) var(--primary);
 }
 
 *::-webkit-scrollbar {
@@ -88,6 +88,7 @@ h2 {
 
 h3 {
   font-size: 1.75rem;
+  color: var(--secondary);
 }
 
 h4 {
@@ -440,6 +441,173 @@ input:focus {
   transition: all 1s ease-in-out;
 }
 
+.erc721-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  font-family: "Inter", sans-serif;
+  font-size: 1em;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--light);
+}
+
+.table-header {
+  background-color: rgba(65, 90, 116, 0.2);
+  color: var(--light);
+  font-weight: 400;
+  text-align: left;
+  padding: 12px;
+  white-space: nowrap;
+  font-size: 1em;
+  line-height: 1.5;
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.2);
+}
+
+.table-header.token-id-header {
+  width: 15%;
+}
+
+.table-header.token-uri-header {
+  width: 50%;
+}
+
+.table-header.image-header,
+.table-cell.image-cell {
+  width: 25%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table-row {
+  transition: background-color 0.3s ease-in-out;
+}
+
+.table-row:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.table-row:hover {
+  background-color: rgba(74, 142, 195, 0.15);
+}
+
+.table-cell {
+  padding: 20px 10px 10px;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 1em;
+  line-height: 1.5;
+  color: var(--light);
+}
+
+.table-cell.token-id {
+  color: var(--secondary);
+  font-weight: 400;
+  text-shadow: 0 0 4px rgba(65, 90, 116, 0.6);
+  max-width: 15%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.table-cell.token-uri {
+  width: 50%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.table-cell.image-cell {
+  width: 35%;
+  text-align: center;
+}
+
+.table-cell img {
+  display: block;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+
+.table-link {
+  color: var(--tertiary);
+  text-decoration: none;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 1em;
+  line-height: 1.5;
+  transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
+}
+
+.table-link:hover {
+  color: var(--secondary);
+  text-shadow: 0 0 6px rgba(74, 142, 195, 0.4);
+}
+
+.nft-image {
+  width: 56px;
+  height: 70px;
+  border-radius: 5px;
+  object-fit: cover;
+  box-shadow: none;
+  transition: transform 0.2s ease-in-out;
+}
+
+.nft-image:hover {
+  transform: scale(1.05);
+}
+
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid var(--alpha);
+  border-top: 4px solid var(--dark);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.nft-table-wrapper {
+  max-height: calc(4 * 80px + 110px);
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--dark) var(--alpha);
+}
+
+.nft-table-wrapper::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.nft-table-wrapper::-webkit-scrollbar-thumb {
+  background-color: var(--dark);
+  border-radius: 5px;
+  border: 2px solid var(--alpha); 
+}
+
+.nft-table-wrapper::-webkit-scrollbar-track {
+  background: var(--alpha);
+  border-radius: 5px;
+}
+
 .project {
   transition: all 0.5s ease-in-out;
   box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.7);
@@ -531,7 +699,6 @@ input:focus {
   height: 100%;
   background-size: cover;
   background-position: center;
-  background-image: url(""); 
   opacity: 0; 
   transition: opacity 0.99s ease-in-out;
 }
@@ -592,7 +759,7 @@ input:focus {
   position: absolute;
   top: 10px;
   right: 10px; 
-  color: var(--secondary); 
+  color: rgb(65, 90, 116); 
   font-size: 1.3rem; 
   font-weight: bold; 
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7); 
@@ -979,6 +1146,76 @@ input:focus {
 }
 
 @media (max-width: 726px) {
+  body, main, .container, .blog-section, .CAcontainer {
+    width: 100%;
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .CAcontainer {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    position: relative;
+    overflow: hidden; 
+  }
+
+  .CodingActivity {
+    width: 100%;
+    max-width: 850px; 
+    height: 100%; 
+    min-height: 300px; 
+    background-image: url("https://wakatime.com/share/@532855a8-3081-4600-a53d-4262beb65d14/c677e9c7-0d49-420a-8c6d-2c7c50af9219.svg");
+    background-size: contain; 
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    opacity: 1; 
+  }
+
+  h2 {
+    font-size: 1.3rem;
+    color: var(--secondary);
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  h3 {
+    font-size: 1.3rem;
+    color: var(--secondary);
+  }
+
+  .project, .project-text, .blog-post, .resume-text {
+    width: 100%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.8em;
+  }
+
+  .table-cell {
+    word-wrap: break-word;
+    white-space: normal;
+  }
+
+  form {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  form button {
+    width: 100%;
+    max-width: 500px;
+    padding: 14px 0;
+    font-size: 1rem;
+    text-align: center;
+    box-sizing: border-box; 
+  }
+
   header {
     height: 140px;
     position: relative;
@@ -1027,11 +1264,6 @@ input:focus {
     width: 465px;
   }
 
-  .CAcontainer {
-    width: 465px;
-    height: 358px;
-  }
-
   .dev-icons {
     color: var(--Stone);
     padding-left: 0.7vw;
@@ -1049,6 +1281,10 @@ input:focus {
 
   .project h3 {
     font-size: 2.2em;
+  }
+
+  .overlay-text {
+    font-size: .8rem; 
   }
 
   footer {
@@ -1115,11 +1351,6 @@ input:focus {
     width: 315px;
   }
 
-  .CAcontainer {
-    width: 315px;
-    height: 242px;
-  }
-
   .dev-icons li {
     margin-right: 10px;
   }
@@ -1135,12 +1366,12 @@ input:focus {
   }
 
   .project-text p {
-    font-size: .8em;
+    font-size: 1.2em;
     line-height: 20px;
   }
 
   .project-text h3 {
-    font-size: 1.2em;
+    font-size: 2.3em;
   }
 
   footer {
@@ -1160,25 +1391,32 @@ input:focus {
 }
 
 @media (max-width: 420px) {
-  header {
-    height: 350px;
-    position: relative;
-    overflow: hidden;
-    z-index: 2;
-  }
 
   .resume-text {
     width: 100%;
   }
 
   nav {
-    text-align: right;
-    font-size: 40px;
+    text-align: center;
+    font-size: 0.8em;
+    white-space: nowrap;
   }
 
   nav ul {
-    width: 100%;
-    text-align: right;
+    width: max-content;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    overflow-x: auto; 
+    white-space: nowrap;
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
+  }
+
+  nav li {
+    display: inline-block;
+    margin: 0 10px; 
   }
 
   .contact {
@@ -1187,11 +1425,6 @@ input:focus {
 
   button {
     width: 275px;
-  }
-
-  .CAcontainer {
-    width: 272px;
-    height: 202px;
   }
 
   .dev-icons li {
@@ -1207,31 +1440,17 @@ input:focus {
     padding-left: 0.1vw;
     font-size: 20.1px;
   }
-
-  .project-text p {
-    font-size: 3.2vw;
-    line-height: 18px;
-  }
-
-  .project-text h3 {
-    font-size: 1em;
-  }
 }
 
 @media (max-width: 380px) {
-  .project-text p {
-    font-size: 2.9vw;
-    line-height: 16px;
-  }
-
-  .project-text h3 {
-    font-size: .8em;
-  }
 
   .resume-text {
     width: 100%;
   }
 
+  nav {
+    font-size: 0.8em;
+  }
 }
 
 @media (max-width: 350px) {
@@ -1243,4 +1462,5 @@ input:focus {
   .project-text h3 {
     font-size: .8em;
   }
+
 }
