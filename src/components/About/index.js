@@ -8,6 +8,7 @@ import waviiiPicture from "../../assets/projects/waviii.io.png";
 import getAlgoBlockNumber from "../helpers/algoBlockNumber";
 import getEthPrice from "../helpers/ethPrice";
 import getHbarBalance from "../helpers/hbarBalance";
+import BtcDifficulty from "../helpers/BtcDifficulty";
 import ERC721Info from '../helpers/ERC721Info';
 
 function About() {
@@ -103,12 +104,12 @@ function About() {
 
           <div className="about-text resume-text">
           I have extensive experience integrating third-party APIs and blockchain nodes to provide accurate, real-time data essential for various applications.
-  For instance, the latest Algorand block number is <strong className="data-point">{getAlgoBlockNumber()}</strong>, 
+  For instance, Bitcoin's current difficulty is <strong className="data-point"><BtcDifficulty /></strong>, the latest Algorand round is <strong className="data-point">{getAlgoBlockNumber()}</strong>, 
   the current Ether price is <strong className="data-point">${getEthPrice()}</strong>, 
   and the live Hedera balance for account <strong>0.0.6287097</strong> is <strong className="data-point">{getHbarBalance()} HBAR</strong>.
   <br /><br />
   The following table demonstrates my possession of a DAPPU token, a rare NFT awarded for earning the Blockchain Developer 
-  Certification through Dapp University. You can also search any other Ethereum&nbsp;
+  Certification through Dapp University on Mar-03-2020. You can also search any other Ethereum&nbsp;
   <a
     href="https://etherscan.io/token/0x476edA02BF0C35603fD6E0306cf85381029F90F1#balances"
     target="_blank"
@@ -170,7 +171,7 @@ One of my areas of focus is on creating unified data formats to simplify blockch
             listening for trades at any time. I used web3 to provide MetaMask
             access to the token and exchange smartcontracts.
             <a
-  href="https://github.com/MBrassey/waviii.io/"
+  href="https://waviii.io/"
   target="_blank"
   rel="noopener noreferrer"
   style={{
