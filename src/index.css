@@ -670,6 +670,11 @@ input:focus {
 .scramble {
   width: 455px;
   color: var(--secondary);
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2rem;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  padding-top: 0.3em;
 }
 
 .profileImg {
