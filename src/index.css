@@ -407,12 +407,12 @@ input:focus {
 
 .my-2 {
   margin-top: var(--spacing-two);
-  margin-bottom: var(--spacing-two);
+  margin-bottom: 0;
 }
 
 .my-5 {
   margin-top: var(--spacing-five);
-  margin-bottom: var(--spacing-five);
+  margin-bottom: 0;
 }
 
 .px-1 {
@@ -674,7 +674,7 @@ input:focus {
   font-size: 2rem;
   letter-spacing: 0.5px;
   font-weight: 500;
-  padding-top: 0.3em;
+  padding-top: 0.28em;
 }
 
 .profileImg {
@@ -683,6 +683,7 @@ input:focus {
   width: 240px;
   margin-top: 0;
   transition: filter 0.2s ease-in-out;
+  margin-bottom: 0;
 }
 
 .profileImg:hover {

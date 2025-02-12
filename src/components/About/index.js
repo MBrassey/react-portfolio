@@ -45,37 +45,39 @@ function About() {
     >
       <section className="my-5">
         <div className="my-2">
-          <div className="my-5 profileImg" ref={profileImgRef}>
-            {isVisible && (
-              <>
-                {loading && (
-                  <div className="spinner-container">
-                    <div className="spinner"></div>
-                  </div>
-                )}
-                <LazyLoadImage
-                  src={ProfilePicture}
-                  alt="Matt's Profile Picture"
-                  style={{
-                    borderRadius: ".2%",
-                    overflow: "visible",
-                    boxShadow: "0 12px 24px 0 rgba(0, 0, 0, 0.7)",
-                    height: "100%",
-                    width: "100%",
-                    marginTop: "9px",
-                    transition: "opacity 0.5s ease-in-out",
-                    display: loading ? "none" : "block",
-                  }}
-                  afterLoad={() => setLoading(false)}
-                  beforeLoad={() => setLoading(true)}
-                />
-              </>
-            )}
-          </div>
+        <div className="my-5 profileImg" ref={profileImgRef}>
+  {isVisible && (
+    <div>
+      {loading && (
+        <div className="spinner-container">
+          <div className="spinner"></div>
+        </div>
+      )}
+      <img
+        src={ProfilePicture}
+        alt="Matt's Profile Picture"
+        style={{
+          borderRadius: ".2%",
+          overflow: "visible",
+          boxShadow: "0 12px 24px 0 rgba(0, 0, 0, 0.7)",
+          height: "auto",
+          width: "100%",
+          marginTop: "9px",
+          transition: "opacity 0.5s ease-in-out",
+          display: loading ? "none" : "block",
+          objectFit: "cover",
+        }}
+        onLoad={() => setLoading(false)}
+        onError={() => setLoading(false)}
+      />
+    </div>
+  )}
+</div>
           <div className="about-text resume-text">
-  As a Senior Blockchain Infrastructure Engineer, I’ve designed and implemented a robust 
-  microservice architecture with a unified blockchain gateway that aggregates data from 
-  over 25 unique blockchain protocols using third-party APIs and managed nodes. This system 
+  As an Engineering Manager specializing in blockchain within the fintech industry, I've 
+  designed and implemented a scalable microservice architecture featuring a unified blockchain 
+  gateway that consolidates data from over 25 distinct blockchain protocols via third-party APIs 
+  and managed nodes. This system 
   delivers live and historical block, balance, staked balance, NFT balance, and transaction 
   data through a standardized OpenAPI specification of my design. I built a hybrid blockchain 
   infrastructure from the ground up, combining on-premises bare-metal servers with cloud-based 
@@ -135,7 +137,7 @@ One of my areas of focus is on creating unified data formats to simplify blockch
   similar APIs, non-EVM-compatible or unique blockchains frequently require entirely distinct approaches. 
   <br /><br />
   To address these challenges, I developed a unified blockchain gateway built with a custom OpenAPI Specification and 
-  microservices that distill similarities into a consistent and reliable format while reconciling differences in output data across providers and 
+  microservices that abstract similarities into a consistent and reliable format while reconciling differences in output data across providers and 
   protocols.
 </div>
 <br />
@@ -167,7 +169,7 @@ One of my areas of focus is on creating unified data formats to simplify blockch
             Below is my ERC-20 Token, Token Wallet & Exchange, waviii.io. I
             deployed waviii-token to Ethereum Mainnet, it has a real value and
             you can exchange ETH and waviii back and forth. The total supply is
-            1 million tokens, most of which reside on my token exchange contract
+            1 million tokens, most of which reside on my token swap contract
             listening for trades at any time. I used web3 to provide MetaMask
             access to the token and exchange smartcontracts.
             <a

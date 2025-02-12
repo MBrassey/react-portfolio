@@ -71,11 +71,11 @@ function Blog() {
       ></div>
       <h3>Blockchain Node Operations</h3>
       <p>
-      At Blueprint, I recently built a complete Ethereum archival node. This infrastructure provides 
-      unparalleled access to historical state data, reaching all the way back to the genesis block. It 
-      enables us to query the complete transaction history, retrieve account balances, smart contract states, 
-      and event logs at any block level. The archival node’s capabilities unlock invaluable insights into Ethereum’s 
-      extensive <strong className="data-point">
+      At Blueprint, I recently built a complete Ethereum archival node. This infrastructure offers access 
+      to Ethereum’s full historical state, tracing back to the genesis block, unlike full nodes that store only the 
+      last 128 blocks. It enables us to query all transaction history, 
+      retrieve account balances, smart contract states, and event logs at any block level. The archival node’s 
+      capabilities unlock insights into Ethereum’s extensive <strong className="data-point">
   <a href="https://etherscan.io/chartsync/chainarchive" target="_blank" rel="noopener noreferrer">
     <ChainSizeGeth />
   </a>

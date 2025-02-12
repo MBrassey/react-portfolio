@@ -6,14 +6,14 @@ function Portfolio() {
     {
       name: "waviii.io",
       description:
-        "Fully Decentralized ERC-20 Token, Wallet, Exchange & Price Chart - React, Web3js & RESTful API's ",
+        "Fully Decentralized ERC-20 Token, Wallet, Exchange & Price Chart - React, Web3js & RESTful API's.",
       link: "https://waviii.io",
       repo: "https://github.com/MBrassey/waviii.io",
     },
     {
       name: "TossUp",
       description:
-        "Fully decentralized betting platform using Chainlink's Verifiable Randomness, Ethereum Smartcontracts, IPFS & React",
+        "Fully decentralized betting platform using Chainlink's Verifiable Randomness, Ethereum Smartcontracts, IPFS & React.",
       link: "https://mbrassey-toss-up.on.fleek.co",
       repo: "https://github.com/MBrassey/toss-up",
     },
@@ -34,35 +34,35 @@ function Portfolio() {
     {
       name: "galler3",
       description:
-        "Single-page photography portfolio application that uses React state, props, Hooks, and reusable UI components",
+        "Single-page photography portfolio application that uses React state, props, Hooks, and reusable UI components.",
       link: "https://mbrassey.github.io/galler3",
       repo: "https://github.com/MBrassey/galler3",
     },
     {
       name: "UltraQueue",
       description:
-        "Personal kanban style queue that saves tasks to localstorage, packaged by @electron-forge for Windows, Mac & Linux",
+        "Personal kanban style queue that saves tasks to localstorage, packaged by @electron-forge for Windows, Mac & Linux.",
       link: "https://mbrassey.github.io/UltraQueue",
       repo: "https://github.com/MBrassey/UltraQueue",
     },
     {
       name: "GitQuery",
       description:
-        "Query the Github API for issues, usernames & languages with jQuery/JS/HTML/CSS",
+        "Query the Github API for issues, usernames & languages with jQuery/JS/HTML/CSS.",
       link: "https://mbrassey.github.io/GitQuery",
       repo: "https://github.com/MBrassey/GitQuery",
     },
     {
       name: "PassGen",
       description:
-        "Configurable strong password generator written in pure JS/HTML/CSS",
+        "Configurable strong password generator written in pure JS/HTML/CSS.",
       link: "https://mbrassey.github.io/PasswordGenerator",
       repo: "https://github.com/MBrassey/PasswordGenerator",
     },
     {
       name: "Scheduler",
       description:
-        "Day scheduler concept using jQuery/JS/HTML/CSS, packaged by @electron-forge for Windows, Mac & Linux",
+        "Day scheduler concept using jQuery/JS/HTML/CSS, packaged by @electron-forge for Windows, Mac & Linux.",
       link: "https://mbrassey.github.io/Scheduler",
       repo: "https://github.com/MBrassey/Scheduler",
     },
